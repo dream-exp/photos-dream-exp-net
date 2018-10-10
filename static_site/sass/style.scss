@@ -1,0 +1,188 @@
+$font-color : #707070;
+
+$breakpoint: 750px;
+$maxwidth: 1200px;
+
+@mixin min-screen($break-point) {
+  @media screen and (min-width: $break-point) {
+    @content;
+  }
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Serif JP', "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+a {
+	text-decoration: none;
+	color: $font-color;
+}
+
+html {
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	background: #fff;
+
+	div {
+		width: 100%;
+		max-width: $maxwidth;
+
+		@include min-screen($breakpoint) {
+		    display: flex;
+			margin: 0 auto;
+		}	
+
+		header {
+			width: 100%;
+			height: 120px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: -20px;
+
+			@include min-screen($breakpoint) {
+				width: 30%;
+				height: 100vh;
+				position: fixed;
+				left:5%;
+			}
+
+			@include min-screen(1600px) {
+				left: 10%;
+			}
+
+			h1 {
+				letter-spacing: 0.6em;
+				text-indent: 0.6em;
+				font-size: 22px;
+				padding-bottom: 20px;
+				border-bottom: solid 1px #D8D8D8;
+				text-align: center;
+				color: $font-color;
+			}
+		}
+
+		div {
+			@include min-screen($breakpoint) {
+				width: 70%;
+				flex-direction: column;
+				margin-left: 35%;
+			}
+
+			article.list {
+				width: 85%;
+				margin: 40px auto;
+
+				img {
+					display: block;
+					width: 100%;
+					transition: all 0.2s;
+					-webkit-transition: all 0.2s ease;
+					-moz-transition: all 0.2s ease;
+					-o-transition: all 0.2s ease;
+
+					&:hover {
+						opacity: 0.5;
+					}
+				}
+
+				h2 {
+					font-size: 17px;
+					margin-top: 10px;
+					width: 100%;
+					color: $font-color;
+				}
+
+				p.time {
+					margin-top: 7px;
+					font-size: 13px;
+					color: $font-color;
+				}
+			}
+
+			article.individual {
+				width: 85%;
+				margin: 40px auto;
+
+				p {
+					color: $font-color;
+					font-size: 15px;
+					line-height: 30px;
+					margin: 30px 0;
+				}
+
+				p.time {
+					margin: 20px 0 40px;
+					font-size: 13px;
+					color: $font-color;
+				}
+
+				h2 {
+					font-size: 20px;
+					margin-bottom: 40px;
+					color: $font-color;
+				}
+
+				h3 {
+					margin-top: 60px;
+					font-size: 20px;
+					color: $font-color;
+				}
+
+				img {
+					display: block;
+					width: 100%;
+					margin: 40px auto;
+
+					@include min-screen($breakpoint) {
+						max-height: 700px;
+						object-fit: contain;
+					}
+				}
+
+				p.caption {
+					font-size: 13px;
+					color: #9F9F9F;
+					margin: -25px auto 40px;
+					text-align: center;
+				}
+			}
+
+			footer {
+				width: 85%;
+				margin: 0 auto 80px;
+				position: relative;
+				display: flex;
+				justify-content: center;
+
+				button {
+					position: absolute;
+					font-size: 13px;
+					padding: 5px;
+					background: none;
+					border: none;
+					border-bottom: solid 1px #D8D8D8;
+					cursor: pointer;
+				}
+
+				button.back {
+					position: static;
+					
+				}
+
+				button.next {
+					left: 0;
+				}
+
+				button.prev {
+					right: 0;
+				}
+			}
+		}
+	}
+}

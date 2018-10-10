@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:200" rel="stylesheet">
+	<title>異郷好実</title>
+</head>
+<body>
+	<div>
+		<header>
+			<a href="{{ .Site.BaseURL }}">
+				<h1>異郷好実</h1>
+			</a>
+		</header>
+		<div>
+			{{ range (.Paginator 5).Pages }}
+	        	{{ .Render "list" }}
+	      	{{ end }}
+
+			{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+			<footer>
+				{{ if .Paginator.HasNext }}
+				<a href="{{ .Paginator.Next.URL }}"><button class="prev">古い記事へ</button></a>
+				{{ end }}
+			    {{ if .Paginator.HasPrev }}
+			    <a href="{{ .Paginator.Prev.URL }}"><button class="next">新しい記事へ</button></a>
+			    {{ end }}
+			</footer>
+			 {{ end }}
+		</div>
+	</div>
+</body>
+</html>
