@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2018/10/back-alley/</loc>
+    <lastmod>2018-10-18T11:54:57+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/10/before-sunset/</loc>
+    <lastmod>2018-10-17T22:48:57+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/10/sl-yamaguchi/</loc>
     <lastmod>2018-10-16T22:56:12+09:00</lastmod>
   </url>
@@ -49,7 +59,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-10-16T22:56:12+09:00</lastmod>
+    <lastmod>2018-10-18T11:54:57+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -60,7 +70,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-10-16T22:56:12+09:00</lastmod>
+    <lastmod>2018-10-18T11:54:57+09:00</lastmod>
     <priority>0</priority>
   </url>
   
