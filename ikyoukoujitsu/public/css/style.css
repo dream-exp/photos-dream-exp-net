@@ -13,7 +13,11 @@ html {
 
 body {
   width: 100%;
-  background: #fff; }
+  background: #fff;
+  padding-bottom: 40px; }
+  @media screen and (min-width: 750px) {
+    body {
+      padding-bottom: 0px; } }
   body div {
     width: 100%;
     max-width: 1200px; }
