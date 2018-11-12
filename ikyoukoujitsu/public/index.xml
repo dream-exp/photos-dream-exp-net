@@ -190,5 +190,14 @@ MFだし、絞りやシャッタースピードは絞り環やダイヤルをぐ
 『異郷好実』って何？ 『異郷好実』は、山口県出身の著名な写真家・林忠彦氏が出版した『異郷好日』になぞらえて名付けたタイトルです。異なる様々な故郷=異郷を見ることで、実世界をもっと好きになる、というコンセプトに基づいています。</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/admin/</guid>
+      <description>  Content Manager     </description>
+    </item>
+    
   </channel>
 </rss>
