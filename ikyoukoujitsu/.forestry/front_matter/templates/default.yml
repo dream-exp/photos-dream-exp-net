@@ -23,4 +23,5 @@ fields:
   config:
     required: true
 pages:
+- ikyoukoujitsu/content/post/hoge.md
 - ikyoukoujitsu/content/post/forestry-test.md
