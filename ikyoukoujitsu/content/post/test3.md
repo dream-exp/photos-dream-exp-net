@@ -5,6 +5,6 @@ slug = "test3"
 title = "test3"
 
 +++
-![aiueo](images/D57A41FD-F502-4FDE-86C7-21068856EE2A.jpg)
+![aiueo](/images/D57A41FD-F502-4FDE-86C7-21068856EE2A.jpg)
 
 ほげほげほげ
