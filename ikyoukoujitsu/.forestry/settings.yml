@@ -1,0 +1,27 @@
+---
+new_page_extension: md
+auto_deploy: true
+admin_path: ikyoukoujitsu
+webhook_url: 
+sections:
+- type: directory
+  path: ikyoukoujitsu/content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: ikyoukoujitsu/content/post
+  label: Post
+  create: all
+  match: "**/*"
+- type: directory
+  path: ikyoukoujitsu/content/admin
+  label: Admin
+  create: all
+  match: "**/*"
+upload_dir: ikyoukoujitsu/static/images
+public_path: "/images"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+version: '0.51'
