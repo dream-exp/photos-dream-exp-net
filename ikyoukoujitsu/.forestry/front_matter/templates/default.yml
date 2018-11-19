@@ -1,0 +1,22 @@
+---
+label: default
+hide_body: false
+is_partial: false
+fields:
+- type: datetime
+  name: date
+  label: Date
+  config:
+    display_utc: false
+    required: true
+- type: text
+  config:
+    required: true
+  label: Title
+  name: title
+- type: file
+  name: share_img
+  label: share_img
+- type: text
+  name: slug
+  label: slug
