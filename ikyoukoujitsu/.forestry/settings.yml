@@ -19,7 +19,7 @@ sections:
   label: Admin
   create: all
   match: "**/*"
-upload_dir: ikyoukoujitsu/public
+upload_dir: ikyoukoujitsu/public/images
 public_path: ikyoukoujitsu/public
 front_matter_path: ''
 use_front_matter_path: false
