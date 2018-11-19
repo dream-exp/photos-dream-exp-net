@@ -5,10 +5,20 @@
     <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Nov 2018 09:40:39 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 19 Nov 2018 03:44:11 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>よるさんぽ</title>
+      <link>/2018/11/midnight-walk/</link>
+      <pubDate>Mon, 19 Nov 2018 03:44:11 +0000</pubDate>
+      
+      <guid>/2018/11/midnight-walk/</guid>
+      <description>寒空のもと、1時間ぐらい街を歩いて帰った。
+普段なら絶対歩きたくないと思う距離も、カメラがあれば歩こうと思える。 ある種、ポケモンGOみたいな要素があるのかもしれない。</description>
+    </item>
     
     <item>
       <title>新しいカメラを持って</title>
@@ -188,15 +198,6 @@ MFだし、絞りやシャッタースピードは絞り環やダイヤルをぐ
       <description>おかえりSLやまぐち号（撮影：2018年9月29日）
 写真ブログ作りました Instagram以外に、文章と写真をセットで表現できる場所が欲しくて、Hugoでブログシステムを構築しました。 フォトエッセイみたいな感じのモノを作れればと思っています。
 『異郷好実』って何？ 『異郷好実』は、山口県出身の著名な写真家・林忠彦氏が出版した『異郷好日』になぞらえて名付けたタイトルです。異なる様々な故郷=異郷を見ることで、実世界をもっと好きになる、というコンセプトに基づいています。</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/admin/</guid>
-      <description>  Content Manager     </description>
     </item>
     
   </channel>
