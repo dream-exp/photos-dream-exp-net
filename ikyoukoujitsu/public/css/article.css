@@ -9,7 +9,8 @@ a {
   color: #707070; }
 
 body {
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 40px; }
   body div {
     width: 100%;
     max-width: 1200px;
