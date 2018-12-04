@@ -23,5 +23,5 @@ fields:
   config:
     required: true
 pages:
-- ikyoukoujitsu/content/post/coffee-break.md
 - ikyoukoujitsu/content/post/よるさんぽ.md
+- ikyoukoujitsu/content/post/coffee-break.md
