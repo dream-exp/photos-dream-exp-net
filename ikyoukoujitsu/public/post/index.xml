@@ -5,10 +5,28 @@
     <link>/post/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Jan 2019 00:37:50 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jan 2019 13:36:01 +0900</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>京都 Vol.1</title>
+      <link>/2019/01/kyoto-1/</link>
+      <pubDate>Wed, 16 Jan 2019 13:36:01 +0900</pubDate>
+      
+      <guid>/2019/01/kyoto-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日の丸</title>
+      <link>/2019/01/hinomaru/</link>
+      <pubDate>Mon, 07 Jan 2019 19:14:25 +0900</pubDate>
+      
+      <guid>/2019/01/hinomaru/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>太鼓谷稲成神社</title>
@@ -16,6 +34,51 @@
       <pubDate>Thu, 03 Jan 2019 00:37:50 +0900</pubDate>
       
       <guid>/2019/01/taikodaniinari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>元日</title>
+      <link>/2019/01/%E5%85%83%E6%97%A5/</link>
+      <pubDate>Tue, 01 Jan 2019 19:10:19 +0900</pubDate>
+      
+      <guid>/2019/01/%E5%85%83%E6%97%A5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>徳山さんぽ</title>
+      <link>/2018/12/tokuyama-walk-around/</link>
+      <pubDate>Sun, 30 Dec 2018 19:07:31 +0900</pubDate>
+      
+      <guid>/2018/12/tokuyama-walk-around/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>雪</title>
+      <link>/2018/12/snow/</link>
+      <pubDate>Fri, 28 Dec 2018 18:19:18 +0900</pubDate>
+      
+      <guid>/2018/12/snow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shunshine</title>
+      <link>/2018/12/shunshine/</link>
+      <pubDate>Fri, 28 Dec 2018 17:31:42 +0900</pubDate>
+      
+      <guid>/2018/12/shunshine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bubbles</title>
+      <link>/2018/12/bubbles/</link>
+      <pubDate>Tue, 25 Dec 2018 17:25:02 +0900</pubDate>
+      
+      <guid>/2018/12/bubbles/</guid>
       <description></description>
     </item>
     
