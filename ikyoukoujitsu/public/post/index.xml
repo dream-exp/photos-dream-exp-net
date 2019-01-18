@@ -5,10 +5,20 @@
     <link>/post/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 18 Jan 2019 13:27:10 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 18 Jan 2019 18:11:39 +0900</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Leicaみたいなチョコレート</title>
+      <link>/2019/01/leica-chocolate/</link>
+      <pubDate>Fri, 18 Jan 2019 18:11:39 +0900</pubDate>
+      
+      <guid>/2019/01/leica-chocolate/</guid>
+      <description>カルディに売ってるLeicaみたいなデザインのチョコレート缶。デザインもすごくそれっぽくて、中に入ってるチョコレートもKodacのフィルムを模したデザインでこだわりを感じる。
+ただ、レンジファインダーカメラなのにレンジファインダーの位置が裏表で違ったり、明らか単焦点レンズなのにZOOM LENZって書かれてたり、F値の単位がcmだったりするのはご愛嬌。</description>
+    </item>
     
     <item>
       <title>Leica Store Kyoto</title>
