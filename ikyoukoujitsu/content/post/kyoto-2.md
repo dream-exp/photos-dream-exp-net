@@ -1,5 +1,5 @@
 +++
-date  = 2019-01-18T13:19:43+09:00
+date  = 2019-01-17T13:19:43+09:00
 Title = "京都 Vol.2"
 share_img = "/images/2019_01_15_12.JPG"
 slug = "kyoto-2"

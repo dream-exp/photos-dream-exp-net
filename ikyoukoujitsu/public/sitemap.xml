@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2019/01/leica-store-kyoto/</loc>
+    <lastmod>2019-01-18T13:27:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/01/kyoto-3/</loc>
+    <lastmod>2019-01-18T13:24:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/01/kyoto-2/</loc>
+    <lastmod>2019-01-17T13:19:43+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2019/01/kyoto-1/</loc>
     <lastmod>2019-01-16T13:36:01+09:00</lastmod>
   </url>
@@ -184,7 +199,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-01-16T13:36:01+09:00</lastmod>
+    <lastmod>2019-01-18T13:27:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -195,7 +210,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-01-16T13:36:01+09:00</lastmod>
+    <lastmod>2019-01-18T13:27:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
