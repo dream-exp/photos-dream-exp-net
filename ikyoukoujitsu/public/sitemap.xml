@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2019/01/rain-followed-by-sun/</loc>
+    <lastmod>2019-01-23T23:40:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/01/way-back/</loc>
+    <lastmod>2019-01-23T23:36:03+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2019/01/leica-chocolate/</loc>
     <lastmod>2019-01-18T18:11:39+09:00</lastmod>
   </url>
@@ -204,7 +214,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-01-18T18:11:39+09:00</lastmod>
+    <lastmod>2019-01-23T23:40:45+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -215,7 +225,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-01-18T18:11:39+09:00</lastmod>
+    <lastmod>2019-01-23T23:40:45+09:00</lastmod>
     <priority>0</priority>
   </url>
   
