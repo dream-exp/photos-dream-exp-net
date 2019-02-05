@@ -1,6 +1,6 @@
 +++
 date  = 2019-02-04T18:20:26+09:00
-Title = "質量の憧憬"
+Title = "質量への憧憬"
 share_img = "/images/2019_02_03_11.jpg"
 slug = "shituryou-doukei"
 +++
