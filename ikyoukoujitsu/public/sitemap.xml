@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2019/02/jiroumaru/</loc>
+    <lastmod>2019-02-05T18:55:52+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2019/02/shituryou-doukei/</loc>
     <lastmod>2019-02-04T18:20:26+09:00</lastmod>
   </url>
@@ -224,7 +229,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-02-04T18:20:26+09:00</lastmod>
+    <lastmod>2019-02-05T18:55:52+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -235,7 +240,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-02-04T18:20:26+09:00</lastmod>
+    <lastmod>2019-02-05T18:55:52+09:00</lastmod>
     <priority>0</priority>
   </url>
   
