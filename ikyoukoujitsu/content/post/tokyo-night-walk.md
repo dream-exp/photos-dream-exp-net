@@ -9,8 +9,6 @@ slug = "tokyo-night-walk"
 
 ![](/images/2019_02_03_14.jpg)
 
-![](/images/2019_02_03_13.jpg)
-
 ![](/images/2019_02_03_21.jpg)
 
 ![](/images/2019_02_03_23.jpg)
