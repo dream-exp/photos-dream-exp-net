@@ -1,0 +1,130 @@
+$maxwidth: 1200px;
+$font-color : #707070;
+$font-color-thick : #303030;
+$breakpoint: 750px;
+
+@mixin min-screen($break-point) {
+  @media screen and (min-width: $break-point) {
+    @content;
+  }
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Serif JP', "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+a {
+	text-decoration: none;
+	color: $font-color;
+}
+
+body {
+	width: 100%;
+	padding-bottom: 40px;
+
+    div {
+        width: 100%;
+        max-width: $maxwidth;
+        margin: 0 auto;
+
+        header {
+            width: 160px;
+            margin: 80px auto;
+
+            h1 {
+				letter-spacing: 0.6em;
+				text-indent: 0.6em;
+				font-size: 22px;
+				padding-bottom: 20px;
+				border-bottom: solid 1px #D8D8D8;
+				text-align: center;
+				color: $font-color;
+			}
+        }
+
+        div {
+            width: 100%;
+
+            article.individual {
+				width: 85%;
+				margin: 40px auto;
+
+				p {
+					color: $font-color-thick;
+					font-size: 15px;
+					line-height: 30px;
+					margin: 30px 0;
+				}
+
+				p.time {
+					margin: 20px 0 40px;
+					font-size: 13px;
+					color: $font-color-thick;
+				}
+
+				h2 {
+					font-size: 20px;
+					margin-bottom: 40px;
+					color: $font-color;
+				}
+
+				h3 {
+					margin-top: 60px;
+					font-size: 20px;
+					color: $font-color;
+				}
+
+				img {
+					display: block;
+					width: 100%;
+                    margin: 40px auto;
+                    
+                    @include min-screen($breakpoint) {
+						max-height: 800px;
+						object-fit: contain;
+					}
+				}
+
+				p.caption {
+					font-size: 13px;
+					color: $font-color;
+					margin: -25px auto 40px;
+					text-align: center;
+				}
+            }
+            
+            footer {
+				width: 85%;
+				margin: 0 auto 80px;
+				position: relative;
+				display: flex;
+				justify-content: center;
+
+				button {
+					position: absolute;
+					font-size: 13px;
+					padding: 5px;
+					background: none;
+					border: none;
+					border-bottom: solid 1px #D8D8D8;
+					cursor: pointer;
+				}
+
+				button.back {
+					position: static;
+					
+				}
+
+				button.next {
+					left: 0;
+				}
+
+				button.prev {
+					right: 0;
+				}
+			}
+        }
+    }
+}
