@@ -1,7 +1,6 @@
 ---
 label: default
 hide_body: false
-is_partial: false
 fields:
 - type: datetime
   name: date
@@ -23,6 +22,6 @@ fields:
   config:
     required: true
 pages:
-- ikyoukoujitsu/content/post/よるさんぽ.md
 - ikyoukoujitsu/content/post/銀杏とイルミネーション.md
 - ikyoukoujitsu/content/post/coffee-break.md
+- ikyoukoujitsu/content/post/よるさんぽ.md
