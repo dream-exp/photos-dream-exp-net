@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2019/05/general/</loc>
+    <lastmod>2019-05-19T02:09:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/05/myhome/</loc>
+    <lastmod>2019-05-18T23:40:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/05/asakusa/</loc>
+    <lastmod>2019-05-11T23:30:22+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2019/05/jolly-ox/</loc>
     <lastmod>2019-05-05T10:59:14+09:00</lastmod>
   </url>
@@ -424,7 +439,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-05-05T10:59:14+09:00</lastmod>
+    <lastmod>2019-05-19T02:09:42+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -435,7 +450,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-05-05T10:59:14+09:00</lastmod>
+    <lastmod>2019-05-19T02:09:42+09:00</lastmod>
     <priority>0</priority>
   </url>
   
