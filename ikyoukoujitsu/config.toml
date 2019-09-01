@@ -1,6 +1,6 @@
-[permalinks]
-	post = "/:year/:month/:slug/"
-
 baseURL = "https://photos.dream-exp.net/"
 languageCode = "ja-jp"
 title = "異郷好実"
+
+[permalinks]
+	post = "/:year/:month/:slug/"
