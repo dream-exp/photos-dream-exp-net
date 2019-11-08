@@ -39,7 +39,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/chuukin/">
-		    <img src="/images/chuukin.jpg" class="eyecatch">
+		    <img data-original="/images/chuukin.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/chuukin/">駐車禁止</a></h2>
@@ -51,7 +51,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/harajiri-waterfall/">
-		    <img src="/images/harajiri_waterfall.jpg" class="eyecatch">
+		    <img data-original="/images/harajiri_waterfall.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/harajiri-waterfall/">東洋のナイアガラ ― 原尻の滝</a></h2>
@@ -63,7 +63,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/ginnangai/">
-		    <img src="/images/IMG_2071.jpg" class="eyecatch">
+		    <img data-original="/images/IMG_2071.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/ginnangai/">平成最後の年に見る昭和</a></h2>
@@ -75,7 +75,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/harumi-water-park/">
-		    <img src="/images/IMG_2477.jpg" class="eyecatch">
+		    <img data-original="/images/IMG_2477.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/harumi-water-park/">晴海親水公園</a></h2>
@@ -87,7 +87,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/first/">
-		    <img src="/images/IMG_2202.jpg" class="eyecatch">
+		    <img data-original="/images/IMG_2202.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/first/">写真ブログはじめました</a></h2>
@@ -107,4 +107,16 @@
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$("img").lazyload(
+			{
+				threshold: 10, 
+				effect: "fadeIn", 
+	    	}
+		);
+	});
+</script>
 </html>

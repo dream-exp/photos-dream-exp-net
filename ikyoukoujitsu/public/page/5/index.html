@@ -39,7 +39,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/05/shibaken/">
-		    <img src="/images/2019_05_04_1.JPG" class="eyecatch">
+		    <img data-original="/images/2019_05_04_1.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/05/shibaken/">柴犬</a></h2>
@@ -51,7 +51,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/05/star/">
-		    <img src="/images/2019_05_03_2.JPG" class="eyecatch">
+		    <img data-original="/images/2019_05_03_2.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/05/star/">星空</a></h2>
@@ -63,7 +63,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/05/wien/">
-		    <img src="/images/2019_05_03_1.JPG" class="eyecatch">
+		    <img data-original="/images/2019_05_03_1.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/05/wien/">帰る場所</a></h2>
@@ -75,7 +75,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/05/merubani/">
-		    <img src="/images/2019_05_02_13.JPG" class="eyecatch">
+		    <img data-original="/images/2019_05_02_13.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/05/merubani/">メルバニ</a></h2>
@@ -87,7 +87,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/05/bus/">
-		    <img src="/images/2019_05_02_10.JPG" class="eyecatch">
+		    <img data-original="/images/2019_05_02_10.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/05/bus/">終バス</a></h2>
@@ -109,4 +109,16 @@
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$("img").lazyload(
+			{
+				threshold: 10, 
+				effect: "fadeIn", 
+	    	}
+		);
+	});
+</script>
 </html>

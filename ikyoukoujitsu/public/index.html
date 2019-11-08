@@ -39,7 +39,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/09/hakoneyumoto/">
-		    <img src="/images/2019_09_07_10.jpg" class="eyecatch">
+		    <img data-original="/images/2019_09_07_10.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/09/hakoneyumoto/">箱根湯本</a></h2>
@@ -51,7 +51,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/09/kamakura_vol2/">
-		    <img src="/images/2019_09_01_23.jpg" class="eyecatch">
+		    <img data-original="/images/2019_09_01_23.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/09/kamakura_vol2/">鎌倉めぐり・令和元年晩夏  ―  vol.2</a></h2>
@@ -63,7 +63,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/09/kamakura_vol1/">
-		    <img src="/images/2019_09_01_28.jpg" class="eyecatch">
+		    <img data-original="/images/2019_09_01_28.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/09/kamakura_vol1/">鎌倉めぐり・令和元年晩夏  ―  vol.1</a></h2>
@@ -75,7 +75,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/08/whats-in-your-bag/">
-		    <img src="/images/DSCF0402.jpg" class="eyecatch">
+		    <img data-original="/images/DSCF0402.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/08/whats-in-your-bag/">What&#39;s in Your Bag？が書きたくなったので書く</a></h2>
@@ -87,7 +87,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/06/2019_06_25_soragraph/">
-		    <img src="/images/2019_06_25_6.jpg" class="eyecatch">
+		    <img data-original="/images/2019_06_25_6.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/06/2019_06_25_soragraph/">Soragraph</a></h2>
@@ -107,4 +107,16 @@
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$("img").lazyload(
+			{
+				threshold: 10, 
+				effect: "fadeIn", 
+	    	}
+		);
+	});
+</script>
 </html>

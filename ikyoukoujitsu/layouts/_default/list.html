@@ -2,7 +2,7 @@
 	<article class="list">
 		{{ if isset .Params "share_img" }}
 		<a href="{{ .Permalink }}">
-		    <img src="{{ .Params.share_img }}" class="eyecatch">
+		    <img data-original="{{ .Params.share_img }}" class="eyecatch">
 		</a>
 		{{ end }}
 		<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>

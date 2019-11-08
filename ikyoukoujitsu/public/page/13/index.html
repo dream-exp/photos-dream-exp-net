@@ -39,7 +39,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/01/leica-chocolate/">
-		    <img src="/images/2019_01_16_8.jpg" class="eyecatch">
+		    <img data-original="/images/2019_01_16_8.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/01/leica-chocolate/">Leicaみたいなチョコレート</a></h2>
@@ -51,7 +51,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/01/leica-store-kyoto/">
-		    <img src="/images/2019_01_15_21.JPG" class="eyecatch">
+		    <img data-original="/images/2019_01_15_21.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/01/leica-store-kyoto/">Leica Store Kyoto</a></h2>
@@ -63,7 +63,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/01/kyoto-3/">
-		    <img src="/images/2019_01_15_17.JPG" class="eyecatch">
+		    <img data-original="/images/2019_01_15_17.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/01/kyoto-3/">京都 Vol.3</a></h2>
@@ -75,7 +75,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/01/kyoto-2/">
-		    <img src="/images/2019_01_15_12.JPG" class="eyecatch">
+		    <img data-original="/images/2019_01_15_12.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/01/kyoto-2/">京都 Vol.2</a></h2>
@@ -87,7 +87,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/01/kyoto-1/">
-		    <img src="/images/2019_01_15_7.JPG" class="eyecatch">
+		    <img data-original="/images/2019_01_15_7.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/01/kyoto-1/">京都 Vol.1</a></h2>
@@ -109,4 +109,16 @@
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$("img").lazyload(
+			{
+				threshold: 10, 
+				effect: "fadeIn", 
+	    	}
+		);
+	});
+</script>
 </html>

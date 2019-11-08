@@ -39,7 +39,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/11/x-e2_2/">
-		    <img src="/images/DSCF0130.jpg" class="eyecatch">
+		    <img data-original="/images/DSCF0130.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/11/x-e2_2/">新しいカメラを持って</a></h2>
@@ -51,7 +51,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/11/x-e2_1/">
-		    <img src="/images/IMG_5718.jpg" class="eyecatch">
+		    <img data-original="/images/IMG_5718.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/11/x-e2_1/">FUJIFILM X-E2 &#43; Hengyijia 25mm F1.8</a></h2>
@@ -63,7 +63,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/moon-viewing/">
-		    <img src="/images/IMG_5412.jpg" class="eyecatch">
+		    <img data-original="/images/IMG_5412.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/moon-viewing/">月見</a></h2>
@@ -75,7 +75,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/morning/">
-		    <img src="/images/IMG_5343.jpg" class="eyecatch">
+		    <img data-original="/images/IMG_5343.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/morning/">朝</a></h2>
@@ -87,7 +87,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/back-alley/">
-		    <img src="/images/IMG_5323.jpg" class="eyecatch">
+		    <img data-original="/images/IMG_5323.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/back-alley/">裏路地</a></h2>
@@ -109,4 +109,16 @@
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$("img").lazyload(
+			{
+				threshold: 10, 
+				effect: "fadeIn", 
+	    	}
+		);
+	});
+</script>
 </html>

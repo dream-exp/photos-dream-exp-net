@@ -39,7 +39,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/obscura/">
-		    <img src="/images/2018_12_15_9.JPG" class="eyecatch">
+		    <img data-original="/images/2018_12_15_9.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/obscura/">OBSCURA COFFEE ROASTERS</a></h2>
@@ -51,7 +51,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/icchan/">
-		    <img src="/images/2018_12_15_3.JPG" class="eyecatch">
+		    <img data-original="/images/2018_12_15_3.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/icchan/">いっちゃん</a></h2>
@@ -63,7 +63,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/tokuyama-sta/">
-		    <img src="/images/2018_12_12_1.JPG" class="eyecatch">
+		    <img data-original="/images/2018_12_12_1.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/tokuyama-sta/">Tokuyama Sta.</a></h2>
@@ -75,7 +75,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/rain/">
-		    <img src="/images/2018_12_11_1.JPG" class="eyecatch">
+		    <img data-original="/images/2018_12_11_1.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/rain/">雨</a></h2>
@@ -87,7 +87,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/supertakumar/">
-		    <img src="/images/2018_12_10_4.JPG" class="eyecatch">
+		    <img data-original="/images/2018_12_10_4.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/supertakumar/">SuperTakumar 55mm f1.8</a></h2>
@@ -109,4 +109,16 @@
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$("img").lazyload(
+			{
+				threshold: 10, 
+				effect: "fadeIn", 
+	    	}
+		);
+	});
+</script>
 </html>

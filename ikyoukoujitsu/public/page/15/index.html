@@ -39,7 +39,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/shunshine/">
-		    <img src="/images/2018_12_28_2.JPG" class="eyecatch">
+		    <img data-original="/images/2018_12_28_2.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/shunshine/">Shunshine</a></h2>
@@ -51,7 +51,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/bubbles/">
-		    <img src="/images/2018_12_25_5.JPG" class="eyecatch">
+		    <img data-original="/images/2018_12_25_5.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/bubbles/">Bubbles</a></h2>
@@ -63,7 +63,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/fog-morning/">
-		    <img src="/images/2018_12_20_6.JPG" class="eyecatch">
+		    <img data-original="/images/2018_12_20_6.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/fog-morning/">濃霧の朝</a></h2>
@@ -75,7 +75,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/miyajima-2/">
-		    <img src="/images/2018_12_17_13.JPG" class="eyecatch">
+		    <img data-original="/images/2018_12_17_13.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/miyajima-2/">宮島 Vol.2</a></h2>
@@ -87,7 +87,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/miyajima-1/">
-		    <img src="/images/2018_12_17_11.JPG" class="eyecatch">
+		    <img data-original="/images/2018_12_17_11.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/miyajima-1/">宮島 Vol.1</a></h2>
@@ -109,4 +109,16 @@
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$("img").lazyload(
+			{
+				threshold: 10, 
+				effect: "fadeIn", 
+	    	}
+		);
+	});
+</script>
 </html>

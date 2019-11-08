@@ -39,7 +39,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/get-pointed/">
-		    <img src="/images/D27D230E-7DB0-44B4-9B21-B3BA96C121D3.JPG" class="eyecatch">
+		    <img data-original="/images/D27D230E-7DB0-44B4-9B21-B3BA96C121D3.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/get-pointed/">尖る</a></h2>
@@ -51,7 +51,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/camera-shop/">
-		    <img src="/images/IMG_03482.JPG" class="eyecatch">
+		    <img data-original="/images/IMG_03482.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/camera-shop/">街角で見かけたカメラ屋さん</a></h2>
@@ -63,7 +63,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/12/ginkgo-and-illumination/">
-		    <img src="/images/DSCF1778.jpg" class="eyecatch">
+		    <img data-original="/images/DSCF1778.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/12/ginkgo-and-illumination/">銀杏とイルミネーション</a></h2>
@@ -75,7 +75,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/11/coffee-break/">
-		    <img src="/images/0A5C6B0D-ADA7-43F2-881D-D48923516A72.jpeg" class="eyecatch">
+		    <img data-original="/images/0A5C6B0D-ADA7-43F2-881D-D48923516A72.jpeg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/11/coffee-break/">Coffee Break</a></h2>
@@ -87,7 +87,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/11/midnight-walk/">
-		    <img src="/images/EA93A1A5-DBA3-4101-9D70-A346C6162C9F.jpeg" class="eyecatch">
+		    <img data-original="/images/EA93A1A5-DBA3-4101-9D70-A346C6162C9F.jpeg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/11/midnight-walk/">よるさんぽ</a></h2>
@@ -109,4 +109,16 @@
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$("img").lazyload(
+			{
+				threshold: 10, 
+				effect: "fadeIn", 
+	    	}
+		);
+	});
+</script>
 </html>

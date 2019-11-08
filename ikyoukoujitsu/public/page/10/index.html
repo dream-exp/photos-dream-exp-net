@@ -39,7 +39,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/02/light-and-darkness/">
-		    <img src="/images/2019_02_16_1.jpg" class="eyecatch">
+		    <img data-original="/images/2019_02_16_1.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/02/light-and-darkness/">明と暗</a></h2>
@@ -51,7 +51,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/02/hagi/">
-		    <img src="/images/2019_02_14_2.jpg" class="eyecatch">
+		    <img data-original="/images/2019_02_14_2.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/02/hagi/">萩</a></h2>
@@ -63,7 +63,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/02/coffee-takou/">
-		    <img src="/images/2019_02_09_22.jpg" class="eyecatch">
+		    <img data-original="/images/2019_02_09_22.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/02/coffee-takou/">珈琲幸房多香</a></h2>
@@ -75,7 +75,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/02/ogaki-2/">
-		    <img src="/images/2019_02_09_18.jpg" class="eyecatch">
+		    <img data-original="/images/2019_02_09_18.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/02/ogaki-2/">大垣 Vol.2</a></h2>
@@ -87,7 +87,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/02/ogaki-1/">
-		    <img src="/images/2019_02_09_10.jpg" class="eyecatch">
+		    <img data-original="/images/2019_02_09_10.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/02/ogaki-1/">大垣 Vol.1</a></h2>
@@ -109,4 +109,16 @@
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$("img").lazyload(
+			{
+				threshold: 10, 
+				effect: "fadeIn", 
+	    	}
+		);
+	});
+</script>
 </html>

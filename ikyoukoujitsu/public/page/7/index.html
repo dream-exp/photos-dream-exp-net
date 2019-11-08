@@ -39,7 +39,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/04/sunset-skytree/">
-		    <img src="/images/2019_04_20_5.JPG" class="eyecatch">
+		    <img data-original="/images/2019_04_20_5.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/04/sunset-skytree/">日没スカイツリー</a></h2>
@@ -51,7 +51,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/04/interior/">
-		    <img src="/images/2019_04_13_2.jpg" class="eyecatch">
+		    <img data-original="/images/2019_04_13_2.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/04/interior/">インテリアのこと</a></h2>
@@ -63,7 +63,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/04/glitch-coffee/">
-		    <img src="/images/2019_04_10_2.jpg" class="eyecatch">
+		    <img data-original="/images/2019_04_10_2.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/04/glitch-coffee/">GLITCH COFFEE&amp;ROASTERS</a></h2>
@@ -75,7 +75,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/04/haneda/">
-		    <img src="/images/2019_04_02_3.jpg" class="eyecatch">
+		    <img data-original="/images/2019_04_02_3.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/04/haneda/">Haneda Airport / Terminal 2</a></h2>
@@ -87,7 +87,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/04/reiwa/">
-		    <img src="/images/2019_04_02_1.jpg" class="eyecatch">
+		    <img data-original="/images/2019_04_02_1.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/04/reiwa/">令和</a></h2>
@@ -109,4 +109,16 @@
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$("img").lazyload(
+			{
+				threshold: 10, 
+				effect: "fadeIn", 
+	    	}
+		);
+	});
+</script>
 </html>

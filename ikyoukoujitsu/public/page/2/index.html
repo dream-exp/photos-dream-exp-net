@@ -39,7 +39,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/06/blue-sky-observatory/">
-		    <img src="/images/2019_06_20_2.jpg" class="eyecatch">
+		    <img data-original="/images/2019_06_20_2.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/06/blue-sky-observatory/">青空の展望台の上で</a></h2>
@@ -51,7 +51,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/06/morning/">
-		    <img src="/images/2019_06_20_1.JPG" class="eyecatch">
+		    <img data-original="/images/2019_06_20_1.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/06/morning/">あさ</a></h2>
@@ -63,7 +63,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/06/%E5%A4%9C%E8%91%89%E5%8E%9F/">
-		    <img src="/images/2019_06_07_2.JPG" class="eyecatch">
+		    <img data-original="/images/2019_06_07_2.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/06/%E5%A4%9C%E8%91%89%E5%8E%9F/">夜葉原</a></h2>
@@ -75,7 +75,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/06/shibuya-and-harajuku/">
-		    <img src="/images/2019_06_04_5.JPG" class="eyecatch">
+		    <img data-original="/images/2019_06_04_5.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/06/shibuya-and-harajuku/">渋谷/原宿</a></h2>
@@ -87,7 +87,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2019/06/komagome/">
-		    <img src="/images/2019_06_03_7.JPG" class="eyecatch">
+		    <img data-original="/images/2019_06_03_7.JPG" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2019/06/komagome/">駒込</a></h2>
@@ -109,4 +109,16 @@
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$("img").lazyload(
+			{
+				threshold: 10, 
+				effect: "fadeIn", 
+	    	}
+		);
+	});
+</script>
 </html>

@@ -39,7 +39,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/before-sunset/">
-		    <img src="/images/IMG_5275.jpg" class="eyecatch">
+		    <img data-original="/images/IMG_5275.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/before-sunset/">日没前</a></h2>
@@ -51,7 +51,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/sl-yamaguchi/">
-		    <img src="/images/IMG_5263.jpg" class="eyecatch">
+		    <img data-original="/images/IMG_5263.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/sl-yamaguchi/">初秋 SLやまぐち号</a></h2>
@@ -63,7 +63,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/surface-tension/">
-		    <img src="/images/IMG_5299.jpg" class="eyecatch">
+		    <img data-original="/images/IMG_5299.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/surface-tension/">表面張力</a></h2>
@@ -75,7 +75,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/chouchin/">
-		    <img src="/images/IMG_5226.jpg" class="eyecatch">
+		    <img data-original="/images/IMG_5226.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/chouchin/">かすかに</a></h2>
@@ -87,7 +87,7 @@
 	<article class="list">
 		
 		<a href="https://photos.dream-exp.net/2018/10/midnight-television/">
-		    <img src="/images/IMG_2094.jpg" class="eyecatch">
+		    <img data-original="/images/IMG_2094.jpg" class="eyecatch">
 		</a>
 		
 		<h2><a href="https://photos.dream-exp.net/2018/10/midnight-television/">深夜のテレビ</a></h2>
@@ -109,4 +109,16 @@
 		</div>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
+<script>
+	$(function() {
+		$("img").lazyload(
+			{
+				threshold: 10, 
+				effect: "fadeIn", 
+	    	}
+		);
+	});
+</script>
 </html>
