@@ -1,5 +1,5 @@
 +++
-date  = 2019-09-08T00:18:42+09:00
+date  = 2019-09-04T23:18:42+09:00
 Title = "鎌倉めぐり・令和元年晩夏  ―  vol.2"
 share_img = "/images/2019_09_01_23.jpg"
 slug = "kamakura_vol2"
