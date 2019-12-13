@@ -28,6 +28,11 @@ body {
 	width: 100%;
 	background: #fff;
 
+	padding-bottom: 40px;
+	@include min-screen($breakpoint) {
+		padding-bottom: 0px;
+	}
+
 	div {
 		width: 100%;
 		max-width: $maxwidth;
@@ -147,7 +152,7 @@ body {
 
 				p.caption {
 					font-size: 13px;
-					color: #9F9F9F;
+					color: $font-color;
 					margin: -25px auto 40px;
 					text-align: center;
 				}
