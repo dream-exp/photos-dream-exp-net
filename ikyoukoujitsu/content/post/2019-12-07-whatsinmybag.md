@@ -20,9 +20,9 @@ slug = "whats-in-my-bag"
 
 <br>
 <h2>持ち物</h2>
-マニュアルフォーカスの35mmレンズを付けたFUJIFILM XE-2を毎日持ち歩いています。ネックストラップは付けたり付けなかったり。
+マニュアルフォーカスの35mmレンズを付けたFUJIFILM X-E2を毎日持ち歩いています。ネックストラップは付けたり付けなかったり。
 {{< img "/images/2019_12_07_6.jpg" >}}
-<p class="caption">FUJIFILM XE-2 + Neewer 35mm f1.7</p>
+<p class="caption">FUJIFILM X-E2 + Neewer 35mm f1.7</p>
 
 MOLESKINEのカバンの中にRollbahnのポーチを入れるという罪深いことをしていますが、サイズ感がちょうど良くて使い続けています。赤いのがGood。
 
