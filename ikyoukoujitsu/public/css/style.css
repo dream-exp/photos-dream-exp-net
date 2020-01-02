@@ -31,13 +31,23 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       margin-bottom: -20px; }
       @media screen and (min-width: 750px) {
         body div header {
           width: 30%;
           height: 100vh;
           position: fixed;
-          left: 5%; } }
+          left: 5%; } 
+          body div header a p.about {
+            margin-top: 50px;
+            font-size: 11px;
+            transition: all 0.2s;
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease; }
+          body div header a p.about:hover {
+            color: #c2c2c2; }
       @media screen and (min-width: 1600px) {
         body div header {
           left: 10%; } }
