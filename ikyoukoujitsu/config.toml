@@ -4,3 +4,8 @@ title = "異郷好実"
 
 [permalinks]
 	post = "/:year/:month/:slug/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
