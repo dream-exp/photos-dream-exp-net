@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>異郷好実</title>
@@ -6,10 +6,186 @@
     <description>Recent content on 異郷好実</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 25 Feb 2020 22:25:12 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 22:50:57 +0900</lastBuildDate>
     
 	<atom:link href="https://photos.dream-exp.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>福島県大熊町</title>
+      <link>https://photos.dream-exp.net/2020/08/okuma/</link>
+      <pubDate>Mon, 10 Aug 2020 22:50:57 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/08/okuma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>海の見える駅・日立駅</title>
+      <link>https://photos.dream-exp.net/2020/08/hitachi-station/</link>
+      <pubDate>Mon, 10 Aug 2020 21:42:05 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/08/hitachi-station/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>宇都宮 Vol.2</title>
+      <link>https://photos.dream-exp.net/2020/08/utsunomiya-2/</link>
+      <pubDate>Sun, 09 Aug 2020 16:13:47 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/08/utsunomiya-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>宇都宮 Vol.1</title>
+      <link>https://photos.dream-exp.net/2020/08/utsunomiya-1/</link>
+      <pubDate>Sun, 02 Aug 2020 16:07:06 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/08/utsunomiya-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>越後湯沢 Vol.2</title>
+      <link>https://photos.dream-exp.net/2020/07/echigoyuzawa-2/</link>
+      <pubDate>Fri, 24 Jul 2020 16:03:52 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/07/echigoyuzawa-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>越後湯沢 Vol.1</title>
+      <link>https://photos.dream-exp.net/2020/07/echigoyuzawa-1/</link>
+      <pubDate>Fri, 24 Jul 2020 16:02:24 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/07/echigoyuzawa-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>無機質</title>
+      <link>https://photos.dream-exp.net/2020/07/inorganic/</link>
+      <pubDate>Fri, 24 Jul 2020 15:47:01 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/07/inorganic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>光市牛島の塩カフェオーレ</title>
+      <link>https://photos.dream-exp.net/2020/07/salt-cafe-au-lait/</link>
+      <pubDate>Sat, 04 Jul 2020 23:34:18 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/07/salt-cafe-au-lait/</guid>
+      <description>徳山コーヒーボーイ | 光市牛島の塩カフェオーレ Salt Café Au Lait Base</description>
+    </item>
+    
+    <item>
+      <title>地元</title>
+      <link>https://photos.dream-exp.net/2020/07/shunan/</link>
+      <pubDate>Wed, 01 Jul 2020 15:41:05 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/07/shunan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>サンライズに乗って</title>
+      <link>https://photos.dream-exp.net/2020/06/sunrise/</link>
+      <pubDate>Fri, 26 Jun 2020 15:35:48 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/06/sunrise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>黄色い電車</title>
+      <link>https://photos.dream-exp.net/2020/06/iidabashi/</link>
+      <pubDate>Thu, 25 Jun 2020 15:32:41 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/06/iidabashi/</guid>
+      <description>中央・総武緩行線 水道橋〜飯田橋</description>
+    </item>
+    
+    <item>
+      <title>BYRON BAY coffee</title>
+      <link>https://photos.dream-exp.net/2020/06/byronbay/</link>
+      <pubDate>Wed, 24 Jun 2020 15:26:25 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/06/byronbay/</guid>
+      <description>BYRON BAY coffee</description>
+    </item>
+    
+    <item>
+      <title>ひかり</title>
+      <link>https://photos.dream-exp.net/2020/06/hikari/</link>
+      <pubDate>Tue, 09 Jun 2020 15:20:15 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/06/hikari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>散歩</title>
+      <link>https://photos.dream-exp.net/2020/05/walk-around/</link>
+      <pubDate>Sat, 23 May 2020 03:26:52 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/05/walk-around/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>水出し緑茶とコップ</title>
+      <link>https://photos.dream-exp.net/2020/05/greentea/</link>
+      <pubDate>Sat, 16 May 2020 03:29:28 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/05/greentea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ひかり</title>
+      <link>https://photos.dream-exp.net/2020/05/hikari/</link>
+      <pubDate>Mon, 11 May 2020 03:24:19 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/05/hikari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>コロナ禍の中で</title>
+      <link>https://photos.dream-exp.net/2020/05/covid19/</link>
+      <pubDate>Tue, 05 May 2020 03:20:59 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/05/covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COFFEEBOYのコーヒーグッズ</title>
+      <link>https://photos.dream-exp.net/2020/05/coffeeboy/</link>
+      <pubDate>Tue, 05 May 2020 03:17:48 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/05/coffeeboy/</guid>
+      <description>3月の写真展でお世話になったCOFFEEBOY。在廊期間はもちろんのこと、それ以前からよく訪れていたカフェだったが、在廊中ずっと飲んでいたコーヒーが恋しくなって、お店で使われているマグカップ、お店で手作りしているお菓子、コーヒー豆を山口から取り寄せた。</description>
+    </item>
+    
+    <item>
+      <title>写真展を開催しました</title>
+      <link>https://photos.dream-exp.net/2020/03/photo-exhibition/</link>
+      <pubDate>Thu, 12 Mar 2020 01:05:31 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/03/photo-exhibition/</guid>
+      <description>地元・山口県下松市のコーヒーボーイ下松店さんにて、個展「碧の風景」を開催させていただきました。
+会期中お越しいただいた皆様、本当にありがとうございました。
+また、開催にあたってご協力いただきましたコーヒーボーイの皆様、大変お世話になりました。
+設営のため、山口に向かう飛行機より
+展示風景
+お花もいただきました！</description>
+    </item>
     
     <item>
       <title>個展開催のお知らせ</title>
@@ -20,6 +196,60 @@
       <description>この度、地元・山口県下松市のコーヒーボーイ下松店さんにて、個展を開催させていただくことになりました。
 3/14〜3/28の2週間の開催です。展示期間の始まりと終わりは在廊の予定です。
 皆様のお越しをお待ちしております。</description>
+    </item>
+    
+    <item>
+      <title>高尾山</title>
+      <link>https://photos.dream-exp.net/2020/02/mt-takao/</link>
+      <pubDate>Mon, 24 Feb 2020 00:59:17 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/02/mt-takao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>鎌倉</title>
+      <link>https://photos.dream-exp.net/2020/02/kamakura/</link>
+      <pubDate>Sun, 23 Feb 2020 23:59:15 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/02/kamakura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>雨・東京</title>
+      <link>https://photos.dream-exp.net/2020/02/rain-tokyo/</link>
+      <pubDate>Sun, 16 Feb 2020 23:32:38 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/02/rain-tokyo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>明治神宮</title>
+      <link>https://photos.dream-exp.net/2020/02/meijijingu/</link>
+      <pubDate>Sat, 15 Feb 2020 23:21:43 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/02/meijijingu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monochrome</title>
+      <link>https://photos.dream-exp.net/2020/02/monochrome/</link>
+      <pubDate>Sat, 15 Feb 2020 23:11:24 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/02/monochrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>夜・東京</title>
+      <link>https://photos.dream-exp.net/2020/02/night-tokyo/</link>
+      <pubDate>Thu, 13 Feb 2020 23:00:45 +0900</pubDate>
+      
+      <guid>https://photos.dream-exp.net/2020/02/night-tokyo/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -296,10 +526,7 @@ Vol.2 へ続く。</description>
       <guid>https://photos.dream-exp.net/2019/12/whats-in-my-bag/</guid>
       <description>ある作品の制作の一環で、夏ぶりに自分のカバンの中身を写しました。
 カバンの全容
-
-かばん 秋に、バックパックを買い替えました。MOLESKINEのバーチカルデバイスバッグです。
-実はこれまでにもMOLESKINEのバックパックを使っていてとても気に入っていたのですが、最近荷物の量が減ってきて、もう少し小さいサイズのバックパックがほしいと思って買い替えました。 MOLESKINE バーチカルデバイスバッグ
-
+かばん 秋に、バックパックを買い替えました。MOLESKINEのバーチカルデバイスバッグです。 実はこれまでにもMOLESKINEのバックパックを使っていてとても気に入っていたのですが、最近荷物の量が減ってきて、もう少し小さいサイズのバックパックがほしいと思って買い替えました。 MOLESKINE バーチカルデバイスバッグ
 持ち物 マニュアルフォーカスの35mmレンズを付けたFUJIFILM X-E2を毎日持ち歩いています。ネックストラップは付けたり付けなかったり。 FUJIFILM X-E2 + Neewer 35mm f1.7
 MOLESKINEのカバンの中にRollbahnのポーチを入れるという罪深いことをしていますが、サイズ感がちょうど良くて使い続けています。赤いのがGood。
 Rollbahnの赤いポーチと、その中身。ケア用品と印鑑が入っています。スタバの缶の中身はコンタクトレンズの予備と頭痛薬。
@@ -316,7 +543,6 @@ MacBook Pro用の充電器は、RAVPowerのコンパクトな充電器と1mのTy
 iPhone X。ケースは元々赤色だったのですが、使い込んでいくうちに牛肉の赤ワイン煮込みみたいな色になってしまいました。。。 iPhone X
 5年前ぐらいに無印良品で買ったヌメ革の財布。こちらも経年変化でだいぶ色が変わってしまいましたが、お気に入りなので使い続けています。 無印良品のヌメ革財布
 これらの他にも iPad、クリアファイル、カードケース、ボールペン、ティッシュ類、鍵を持ち歩いています。
-
 まとめ 夏に比べると色が赤に統一されてきて、個人的に満足です。 赤色のモノたち</description>
     </item>
     
@@ -546,7 +772,7 @@ iPhone X。ケースは元々赤色だったのですが、使い込んでいく
 鎌倉はこのタイプの郵便ポストが標準なのか，街中でよく見かける．
 海へ続く小道．その先に見える青に，高揚感を覚える．
 夕暮れの浜辺は本当にきれいで，シャッターを切りながら，最近の出来事を一つ一つ心の中で整理していくにはうってつけのロケーションだった．
-なぜ1文字だけひらがな&amp;hellip;
+なぜ1文字だけひらがな...
 スポーツサンダルを買ったけど一度も海に入らないのもサンダルに悪いなと思って，少しだけ足を浸けた．
 由比ヶ浜をひとしきり楽しんだ後は，鎌倉駅方面を目指して歩く． 途中寄ったコンビニに繋がれていた柴犬．停まってる車のバンパーをペロペロ舐める．
 鎌倉駅をそのまま通過して，再び小町通りを鶴岡八幡宮方面へ．最後に鎌倉ビールを飲んで帰ろうと思って，お店を探して結構歩いた．
@@ -564,8 +790,7 @@ iPhone X。ケースは元々赤色だったのですが、使い込んでいく
       <description>3週間のインターンシップで神奈川まで来ていて，鎌倉もそこそこ近いので休日を利用して鎌倉へ赴いた．
 この日は本当は近所で買い物したり作業したりしようと思っていたのだが，前日からいくつか感傷的になる出来事があって，気分転換に由比ヶ浜でも眺めに行こうと思い立った．鎌倉には，なぜかふと訪れたくなる魅力がある．
 鎌倉駅近くの小町通り．入道雲とのコントラストが美しい．
-電車を何度か乗り換えて，鎌倉駅に到着したのは13時過ぎ．空腹を満たすために，小町通りの入り口にある「イワタコーヒー店」に入る．
-ピザトーストは昔ながらの味．
+電車を何度か乗り換えて，鎌倉駅に到着したのは13時過ぎ．空腹を満たすために，小町通りの入り口にある「イワタコーヒー店」に入る． ピザトーストは昔ながらの味．
 まだまだ暑さが厳しい季節．アイスティーと迷って，結局アイスコーヒーを頼む．
 その足で，鎌倉駅の西側にある「スターバックスコーヒー 鎌倉御成町店」へ．ここは以前から気になっていたが，鎌倉駅の西側に行く機会がなく，これまでスルーしていたスタバ．
 御成町店はスターバックスリザーブ．
@@ -1109,7 +1334,7 @@ Biscoffおいしいよね
       <pubDate>Tue, 05 Feb 2019 18:55:52 +0900</pubDate>
       
       <guid>https://photos.dream-exp.net/2019/02/jiroumaru/</guid>
-      <description>秋葉原にある&amp;rdquo;立ち食い&amp;rdquo;焼き肉「次郎丸」は、食べたい部位のお肉を枚数単位で頼んで楽しめるお店。
+      <description>秋葉原にある&#34;立ち食い&#34;焼き肉「次郎丸」は、食べたい部位のお肉を枚数単位で頼んで楽しめるお店。
 タン元。とっても美味しかった。
 立ち食いなのでグリルも小さめ。高火力であっという間に焼けてしまうので、せっかくの美味しいお肉を焦がさないように注意しなければならない。
 人生初の立ち食い焼き肉。 元来少食なので、同じ値段出して食べるなら焼き肉食べ放題とかよりもこういう形態の焼き肉屋の方が自分には合ってると思った。
