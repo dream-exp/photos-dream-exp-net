@@ -2,7 +2,7 @@
 date  = 2020-12-19T21:46:57+09:00
 Title = "小田原文化財団 江之浦測候所 Vol.1"
 share_img = "/images/2020_12_19_14.jpg"
-slug = "enoura-observatory"
+slug = "enoura-observatory-1"
 +++
 
 あこがれの場所だった江之浦測候所にやっと訪れることができました。
