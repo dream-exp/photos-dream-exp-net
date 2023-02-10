@@ -2,87 +2,119 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Noto Serif JP', "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; }
+  font-family: "Noto Serif JP", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3",
+    "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
 
 a {
   text-decoration: none;
-  color: #707070; }
+  color: #707070;
+}
 
 a button {
-  color: #707070; 
+  color: #707070;
 }
 
 body {
   width: 100%;
-  padding-bottom: 40px; }
-  body div {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto; }
-    body div header {
-      width: 160px;
-      margin: 80px auto; }
-      body div header h1 {
-        letter-spacing: 0.6em;
-        text-indent: 0.6em;
-        font-size: 22px;
-        padding-bottom: 20px;
-        border-bottom: solid 1px #D8D8D8;
-        text-align: center;
-        color: #707070; }
-    body div div {
-      width: 100%; }
-      body div div article.individual {
-        width: 85%;
-        margin: 40px auto; }
-        body div div article.individual p {
-          color: #303030;
-          font-size: 15px;
-          line-height: 30px;
-          margin: 30px 0; }
-        body div div article.individual p.time {
-          margin: 20px 0 40px;
-          font-size: 13px;
-          color: #303030; }
-        body div div article.individual h2 {
-          font-size: 20px;
-          margin-bottom: 40px;
-          color: #707070; }
-        body div div article.individual h3 {
-          margin-top: 60px;
-          font-size: 20px;
-          color: #707070; }
-        body div div article.individual img {
-          display: block;
-          width: 100%;
-          margin: 40px auto; }
-          @media screen and (min-width: 750px) {
-            body div div article.individual img {
-              max-height: 800px;
-              -o-object-fit: contain;
-                 object-fit: contain; } }
-        body div div article.individual p.caption {
-          font-size: 13px;
-          color: #707070;
-          margin: -25px auto 40px;
-          text-align: center; }
-      body div div footer {
-        width: 85%;
-        margin: 0 auto 80px;
-        position: relative;
-        display: flex;
-        justify-content: center; }
-        body div div footer button {
-          position: absolute;
-          font-size: 13px;
-          padding: 5px;
-          background: none;
-          border: none;
-          border-bottom: solid 1px #D8D8D8;
-          cursor: pointer; }
-        body div div footer button.back {
-          position: static; }
-        body div div footer button.next {
-          left: 0; }
-        body div div footer button.prev {
-          right: 0; }
+  padding-bottom: 40px;
+}
+body div {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body div header {
+  width: 160px;
+  margin: 80px auto;
+}
+body div header h1 {
+  letter-spacing: 0.6em;
+  text-indent: 0.6em;
+  font-size: 22px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #d8d8d8;
+  text-align: center;
+  color: #707070;
+}
+body div div {
+  width: 100%;
+}
+body div div article.individual {
+  width: 85%;
+  margin: 40px auto;
+}
+body div div article.individual p {
+  color: #303030;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 30px 0;
+}
+body div div article.individual p.time {
+  margin: 20px 0 40px;
+  font-size: 13px;
+  color: #303030;
+}
+body div div article.individual h2 {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #707070;
+}
+body div div article.individual h3 {
+  margin-top: 60px;
+  font-size: 20px;
+  color: #707070;
+}
+body div div article.individual img {
+  display: block;
+  width: 100%;
+  margin: 40px auto;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+@media screen and (min-width: 750px) {
+  body div div article.individual img {
+    max-height: 800px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+}
+body div div article.individual img:hover {
+  opacity: 0.75;
+}
+body div div article.individual a {
+  border: solid 2px red;
+}
+body div div article.individual p.caption {
+  font-size: 13px;
+  color: #707070;
+  margin: -25px auto 40px;
+  text-align: center;
+}
+body div div footer {
+  width: 85%;
+  margin: 0 auto 80px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+body div div footer button {
+  position: absolute;
+  font-size: 13px;
+  padding: 5px;
+  background: none;
+  border: none;
+  border-bottom: solid 1px #d8d8d8;
+  cursor: pointer;
+}
+body div div footer button.back {
+  position: static;
+}
+body div div footer button.next {
+  left: 0;
+}
+body div div footer button.prev {
+  right: 0;
+}
