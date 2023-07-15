@@ -1,0 +1,32 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-02-09 23:38:58+09:00",
+  Title: "雪国へ Vol.6",
+  share_img: "/images/2020_02_09_29.JPG",
+  slug: "aomori-6",
+};
+
+八甲田丸を見学した後は、近くのワ・ラッセへ。ここには「ねぷたの家」という、ねぷたを季節問わず見学できる施設がある。
+
+![雪国へ Vol.6](/images/2020_02_09_27.JPG)
+![雪国へ Vol.6](/images/2020_02_09_28.JPG)
+![雪国へ Vol.6](/images/2020_02_09_29.JPG)
+
+<span className="caption">建物の外観が美しい</span>
+![雪国へ Vol.6](/images/2020_02_09_30.JPG) ![雪国へ Vol.6](/images/2020_02_09_31.JPG)
+<span className="caption">なかなか見ることが出来ないねぷたの内側</span>
+
+最後は冷えた体を温めに、街中の温泉に浸かって新青森駅から帰路に着きました。
+
+![雪国へ Vol.6](/images/2020_02_09_32.JPG)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

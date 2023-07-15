@@ -1,0 +1,34 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-01-17 13:19:43+09:00",
+  Title: "京都 Vol.2",
+  share_img: "/images/2019_01_15_12.JPG",
+  slug: "kyoto-2",
+};
+
+![京都 Vol.2](/images/2019_01_15_9.JPG)
+
+![京都 Vol.2](/images/2019_01_15_10.JPG)
+
+![京都 Vol.2](/images/2019_01_15_11.JPG)
+
+![京都 Vol.2](/images/2019_01_15_12.JPG)
+
+![京都 Vol.2](/images/2019_01_15_13.JPG)
+
+![京都 Vol.2](/images/2019_01_15_14.JPG)
+
+![京都 Vol.2](/images/2019_01_15_15.JPG)
+
+![京都 Vol.2](/images/2019_01_15_16.JPG)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

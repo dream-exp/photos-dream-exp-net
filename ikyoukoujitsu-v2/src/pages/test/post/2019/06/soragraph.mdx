@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-06-25 19:30:49+09:00",
+  Title: "Soragraph",
+  share_img: "/images/2019_06_25_6.jpg",
+  slug: "soragraph",
+};
+
+![Soragraph](/images/2019_06_25_1.jpg)
+![Soragraph](/images/2019_06_25_2.jpg)
+![Soragraph](/images/2019_06_25_3.jpg)
+![Soragraph](/images/2019_06_25_4.jpg)
+![Soragraph](/images/2019_06_25_5.jpg)
+![Soragraph](/images/2019_06_25_6.jpg)
+![Soragraph](/images/2019_06_25_7.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

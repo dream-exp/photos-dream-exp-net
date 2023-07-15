@@ -1,0 +1,34 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-08-10 21:42:05+09:00",
+  Title: "海の見える駅・日立駅",
+  share_img: "/images/2020_08_10_7.jpg",
+  slug: "hitachi-station",
+};
+
+![海の見える駅・日立駅](/images/2020_08_10_1.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_2.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_3.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_4.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_5.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_6.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_7.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_8.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_9.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_10.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_11.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_12.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_13.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_14.jpg)
+![海の見える駅・日立駅](/images/2020_08_10_15.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

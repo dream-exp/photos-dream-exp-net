@@ -1,0 +1,30 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2018-12-25 17:25:02+09:00",
+  Title: "Bubbles",
+  share_img: "/images/2018_12_25_5.JPG",
+  slug: "bubbles",
+};
+
+![Bubbles](/images/2018_12_25_1.JPG)
+
+![Bubbles](/images/2018_12_25_2.JPG)
+
+![Bubbles](/images/2018_12_25_3.JPG)
+
+![Bubbles](/images/2018_12_25_4.JPG)
+
+![Bubbles](/images/2018_12_25_5.JPG)
+
+![Bubbles](/images/2018_12_25_6.JPG)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

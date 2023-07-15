@@ -1,0 +1,25 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-11-23 22:13:08+09:00",
+  Title: "東京散歩",
+  share_img: "/images/2022_11_23_4.jpg",
+  slug: "tokyo-walk-around",
+};
+
+![東京散歩](/images/2022_11_23_1.jpg)
+![東京散歩](/images/2022_11_23_2.jpg)
+![東京散歩](/images/2022_11_23_3.jpg)
+![東京散歩](/images/2022_11_23_4.jpg)
+![東京散歩](/images/2022_11_23_5.jpg)
+![東京散歩](/images/2022_11_23_6.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

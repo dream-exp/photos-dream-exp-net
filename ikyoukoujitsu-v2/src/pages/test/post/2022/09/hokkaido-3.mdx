@@ -1,0 +1,30 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-09-19 00:25:32+09:00",
+  Title: "北海道 Vol.3",
+  share_img: "/images/2022_09_19_7.jpg",
+  slug: "hokkaido-3",
+};
+
+![北海道 Vol.3](/images/2022_09_19_2.jpg)
+![北海道 Vol.3](/images/2022_09_19_3.jpg)
+![北海道 Vol.3](/images/2022_09_19_4.jpg)
+![北海道 Vol.3](/images/2022_09_19_5.jpg)
+![北海道 Vol.3](/images/2022_09_19_6.jpg)
+![北海道 Vol.3](/images/2022_09_19_7.jpg)
+![北海道 Vol.3](/images/2022_09_19_8.jpg)
+![北海道 Vol.3](/images/2022_09_19_9.jpg)
+![北海道 Vol.3](/images/2022_09_19_10.jpg)
+![北海道 Vol.3](/images/2022_09_19_11.jpg)
+![北海道 Vol.3](/images/2022_09_19_12.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

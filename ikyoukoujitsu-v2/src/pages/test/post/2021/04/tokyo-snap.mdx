@@ -1,0 +1,31 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-04-10 00:21:33+09:00",
+  Title: "東京スナップ",
+  share_img: "/images/2021_04_10_12.jpg",
+  slug: "tokyo-snap",
+};
+
+![東京スナップ](/images/2021_04_10_1.jpg)
+![東京スナップ](/images/2021_04_10_2.jpg)
+![東京スナップ](/images/2021_04_10_10.jpg)
+![東京スナップ](/images/2021_04_10_11.jpg)
+![東京スナップ](/images/2021_04_10_12.jpg)
+![東京スナップ](/images/2021_04_10_3.jpg)
+![東京スナップ](/images/2021_04_10_4.jpg)
+![東京スナップ](/images/2021_04_10_5.jpg)
+![東京スナップ](/images/2021_04_10_6.jpg)
+![東京スナップ](/images/2021_04_10_7.jpg)
+![東京スナップ](/images/2021_04_10_8.jpg)
+![東京スナップ](/images/2021_04_10_9.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

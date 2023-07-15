@@ -1,0 +1,32 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2018-12-04 17:21:07+09:00",
+  Title: "銀杏とイルミネーション",
+  share_img: "/images/DSCF1778.jpg",
+  slug: "ginkgo-and-illumination",
+};
+
+![銀杏とイルミネーション](/images/DSCF1749.JPG)
+
+![銀杏とイルミネーション](/images/DSCF1760.JPG)
+
+![銀杏とイルミネーション](/images/DSCF1768.jpg)
+
+![銀杏とイルミネーション](/images/DSCF1774.jpg)
+
+![銀杏とイルミネーション](/images/DSCF1778.jpg)
+
+![銀杏とイルミネーション](/images/DSCF1885.jpg)
+
+研究室のみんなでご飯を食べに行った帰り道、ちょうどイルミネーションが始まっていて、寒さも忘れてみんなで楽しんで帰った。徳山のこの通りは銀杏もきれいで、秋から冬へのグラデーションを感じながら、子供に帰ったようにみんなで銀杏の葉っぱを舞い上げて遊んだ。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

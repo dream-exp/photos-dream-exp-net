@@ -1,0 +1,43 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-01-30 16:50:45+09:00",
+  Title: "つくば石焼芋",
+  share_img: "/images/2021_01_30_6.jpg",
+  slug: "tsukuba-yakiimo",
+};
+
+先日の NHK・ドキュメント 72 時間の舞台となったつくば市の「つくば石焼芋」。
+
+訪れたこの日はちょうど番組のお昼の再放送の直後で、お店も大変賑わっていました。
+
+![つくば石焼芋](/images/2021_01_30_1.jpg)
+![つくば石焼芋](/images/2021_01_30_2.jpg)
+
+<span className="caption">整然と積み上げられた薪が美しい。</span>
+![つくば石焼芋](/images/2021_01_30_3.jpg)
+<span className="caption">
+  差し込む夕日がスポットライトのようできれいでした。
+</span>
+![つくば石焼芋](/images/2021_01_30_4.jpg)
+<span className="caption">
+  今、この日々が歴史の1ページになっているのを感じるこの状況。
+  <br />
+  数年後この写真を見たときに、そんなこともあったね、と落ち着いて言える日が来るのでしょうか。
+</span>
+![つくば石焼芋](/images/2021_01_30_5.jpg) ![つくば石焼芋](/images/2021_01_30_6.jpg)
+![つくば石焼芋](/images/2021_01_30_7.jpg)
+
+実は 3 時間ほど焼き芋ができるまで待ち続けていたのですが、一緒に並んでいた他のお客さんと歓談したり、お店の方から焼き芋のあれこれを聞いていると時間が一瞬で過ぎました。
+
+このとき、実家用に冷凍焼き芋を購入したのですが、普段電子マネーで生活している自分は現金の持ち合わせがなく、お店の方に車を出してもらって近くのコンビニまでお金をおろしに行ったのでした。本当に助かりました。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

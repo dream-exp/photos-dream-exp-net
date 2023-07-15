@@ -1,0 +1,32 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-01-09 16:17:33+09:00",
+  Title: "角川武蔵野ミュージアム / ところざわサクラタウン",
+  share_img: "/images/2021_01_09_16.jpg",
+  slug: "kadokawa-musashino-museum",
+};
+
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_15.jpg)
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_16.jpg)
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_17.jpg)
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_18.jpg)
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_19.jpg)
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_20.jpg)
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_21.jpg)
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_22.jpg)
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_23.jpg)
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_24.jpg)
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_25.jpg)
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_26.jpg)
+![角川武蔵野ミュージアム / ところざわサクラタウン](/images/2021_01_09_27.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

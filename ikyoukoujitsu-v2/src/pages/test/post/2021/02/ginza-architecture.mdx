@@ -1,0 +1,27 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-02-13 17:59:04+09:00",
+  Title: "銀座建物スナップ",
+  share_img: "/images/2021_02_13_18.jpg",
+  slug: "ginza-architecture",
+};
+
+![銀座建物スナップ](/images/2021_02_13_14.jpg)
+![銀座建物スナップ](/images/2021_02_13_15.jpg)
+
+![銀座建物スナップ](/images/2021_02_13_18.jpg)
+
+![銀座建物スナップ](/images/2021_02_13_21.jpg)
+
+![銀座建物スナップ](/images/2021_02_13_24.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

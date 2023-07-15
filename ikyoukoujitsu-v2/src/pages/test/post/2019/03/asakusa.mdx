@@ -1,0 +1,30 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-03-06 20:31:58+09:00",
+  Title: "浅草",
+  share_img: "/images/2019_03_06_11.jpg",
+  slug: "asakusa",
+};
+
+![浅草](/images/2019_03_06_7.jpg)
+
+![浅草](/images/2019_03_06_8.jpg)
+
+![浅草](/images/2019_03_06_9.jpg)
+
+![浅草](/images/2019_03_06_10.jpg)
+
+![浅草](/images/2019_03_06_11.jpg)
+
+![浅草](/images/2019_03_06_12.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

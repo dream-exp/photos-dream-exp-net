@@ -1,0 +1,29 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-08-14 20:10:01+09:00",
+  Title: "長門湯本・美祢",
+  share_img: "/images/2021_08_14_13.jpg",
+  slug: "nagatoyumoto-mine",
+};
+
+![長門湯本・美祢](/images/2021_08_14_8.jpg)
+![長門湯本・美祢](/images/2021_08_14_9.jpg)
+![長門湯本・美祢](/images/2021_08_14_10.jpg)
+![長門湯本・美祢](/images/2021_08_14_11.jpg)
+![長門湯本・美祢](/images/2021_08_14_12.jpg)
+![長門湯本・美祢](/images/2021_08_14_13.jpg)
+![長門湯本・美祢](/images/2021_08_14_14.jpg)
+![長門湯本・美祢](/images/2021_08_14_15.jpg)
+![長門湯本・美祢](/images/2021_08_14_16.jpg)
+![長門湯本・美祢](/images/2021_08_14_17.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-04-23 10:38:33+09:00",
+  Title: "横浜",
+  share_img: "/images/2022_04_23_6.jpg",
+  slug: "yokohama",
+};
+
+![横浜](/images/2022_04_23_1.jpg)
+![横浜](/images/2022_04_23_2.jpg)
+![横浜](/images/2022_04_23_3.jpg)
+![横浜](/images/2022_04_23_4.jpg)
+![横浜](/images/2022_04_23_5.jpg)
+![横浜](/images/2022_04_23_6.jpg)
+![横浜](/images/2022_04_23_7.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

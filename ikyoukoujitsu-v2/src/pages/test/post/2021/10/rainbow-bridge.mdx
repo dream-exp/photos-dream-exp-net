@@ -1,0 +1,28 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-10-16 04:22:15+09:00",
+  Title: "レインボーブリッジを徒歩で渡る",
+  share_img: "/images/2021_10_16_3.jpg",
+  slug: "rainbow-bridge",
+};
+
+![レインボーブリッジを徒歩で渡る](/images/2021_10_16_1.jpg)
+![レインボーブリッジを徒歩で渡る](/images/2021_10_16_2.jpg)
+![レインボーブリッジを徒歩で渡る](/images/2021_10_16_3.jpg)
+![レインボーブリッジを徒歩で渡る](/images/2021_10_16_4.jpg)
+![レインボーブリッジを徒歩で渡る](/images/2021_10_16_5.jpg)
+![レインボーブリッジを徒歩で渡る](/images/2021_10_16_6.jpg)
+![レインボーブリッジを徒歩で渡る](/images/2021_10_16_7.jpg)
+![レインボーブリッジを徒歩で渡る](/images/2021_10_16_8.jpg)
+![レインボーブリッジを徒歩で渡る](/images/2021_10_16_9.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

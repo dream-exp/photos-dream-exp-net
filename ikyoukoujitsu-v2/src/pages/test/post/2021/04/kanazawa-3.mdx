@@ -1,0 +1,34 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-04-17 01:30:01+09:00",
+  Title: "金沢 Vol.3 | 21世紀美術館、長町武家屋敷",
+  share_img: "/images/2021_04_17_38.jpg",
+  slug: "kanazawa-3",
+};
+
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_30.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_31.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_32.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_33.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_34.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_35.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_36.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_37.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_38.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_39.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_40.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_41.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_42.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_43.jpg)
+![金沢 Vol.3 | 21世紀美術館、長町武家屋敷](/images/2021_04_17_44.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

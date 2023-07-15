@@ -1,0 +1,50 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2023-01-21 02:16:05+09:00",
+  Title: "Leica M10",
+  share_img: "/images/2023_01_21_1.jpg",
+  slug: "leica-m10",
+};
+
+ついに、ついに、ついに、Leica M10 を購入してしまいました。清水の舞台、10 個分ぐらい飛び降りました。
+
+先週、新宿の某店で実機を触らせてもらったときに購入を決意し、次の日には状態のいい在庫が入荷されたので思い切って購入。
+去年の 9 月に、いつか Leica を買うだろうと思って買っておいた Voigtlander NOKTON Classic 35mm F1.4 Ⅱ SC をさっそく取り付けました。
+
+記念に撮影した M10 本体のカットは、購入を非常に後押ししてもらった PHOTO YODOBASHI のカバー写真をオマージュしました。
+
+![Leica M10](/images/2023_01_21_1.jpg)
+![Leica M10](/images/2023_01_21_2.jpg)
+![Leica M10](/images/2023_01_21_3.jpg)
+![Leica M10](/images/2023_01_21_4.jpg)
+![Leica M10](/images/2023_01_21_5.jpg)
+
+<span className="caption">
+  真鍮のレリーズボタンと、クライミングロープのストラップをアクセサリーとして取り付けました。
+</span>
+
+届いたその日は、まさかの結婚式参列日。
+
+急いでセットアップして、ぶっつけで M10 を持っていって写真を撮ることにしました。
+
+慣れないレンジファインダーに苦労しながらも、１カット １カット撮るたびに Leica の絵作りに感動するのでした。
+![Leica M10](/images/2023_01_21_6.jpg)
+![Leica M10](/images/2023_01_21_7.jpg)
+![Leica M10](/images/2023_01_21_8.jpg)
+
+FUJIFILM X-Pro2<br />
+FUJIFILM XF 35mm F1.4 R
+
+Leica M10<br />
+Voigtlander NOKTON classic 35mm F1.4 Ⅱ SC
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

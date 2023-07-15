@@ -1,0 +1,32 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-04-17 01:24:33+09:00",
+  Title: "金沢 Vol.1 | 近江町市場、兼六園",
+  share_img: "/images/2021_04_17_2.jpg",
+  slug: "kanazawa-1",
+};
+
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_1.jpg)
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_2.jpg)
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_3.jpg)
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_4.jpg)
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_5.jpg)
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_6.jpg)
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_7.jpg)
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_8.jpg)
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_9.jpg)
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_10.jpg)
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_11.jpg)
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_12.jpg)
+![金沢 Vol.1 | 近江町市場、兼六園](/images/2021_04_17_13.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

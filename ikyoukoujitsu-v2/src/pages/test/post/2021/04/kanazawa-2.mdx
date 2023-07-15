@@ -1,0 +1,35 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-04-17 01:26:27+09:00",
+  Title: "金沢 Vol.2 | 鈴木大拙館",
+  share_img: "/images/2021_04_17_23.jpg",
+  slug: "kanazawa-2",
+};
+
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_14.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_15.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_16.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_17.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_18.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_19.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_20.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_21.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_22.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_23.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_24.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_25.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_26.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_27.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_28.jpg)
+![金沢 Vol.2 | 鈴木大拙館](/images/2021_04_17_29.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,24 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2018-12-30 19:07:31+09:00",
+  Title: "徳山さんぽ",
+  share_img: "/images/2018_12_30_3.JPG",
+  slug: "tokuyama-walk-around",
+};
+
+![徳山さんぽ](/images/2018_12_30_1.JPG)
+
+![徳山さんぽ](/images/2018_12_30_2.JPG)
+
+![徳山さんぽ](/images/2018_12_30_3.JPG)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

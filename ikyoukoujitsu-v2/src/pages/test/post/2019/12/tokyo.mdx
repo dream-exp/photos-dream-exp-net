@@ -1,0 +1,36 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-12-22 22:27:39+09:00",
+  Title: "師走の東京巡り",
+  share_img: "/images/2019_12_21_3.jpg",
+  slug: "tokyo",
+};
+
+フィルムカメラを探して秋葉原、中野、新宿を回りました。中央線に乗って、新宿より西側に行くのは久しぶりで新鮮な気持ち。
+
+![師走の東京巡り](/images/2019_12_21_1.jpg)
+![師走の東京巡り](/images/2019_12_21_2.jpg)
+![師走の東京巡り](/images/2019_12_21_3.jpg)
+![師走の東京巡り](/images/2019_12_21_4.jpg)
+![師走の東京巡り](/images/2019_12_21_5.jpg)
+![師走の東京巡り](/images/2019_12_21_6.jpg)
+![師走の東京巡り](/images/2019_12_21_7.jpg)
+![師走の東京巡り](/images/2019_12_21_9.jpg)
+
+赤色の革に張り替えられた Olympus 35DC に出会って、思わず購入。秋葉原の 2nd BASE（三宝カメラの 2 号店）で購入したのですが、店員さんもすごく親切に相談に乗ってくれて、とてもいい買い物ができました。
+![師走の東京巡り](/images/2019_12_21_8.jpg)
+
+<span className="caption">Olympus 35DC</span>
+
+年末年始の帰省では、フィルムカメラで人の写真をたくさん撮ろうと思います。現像が終わったら、ここにも作例を載せますね。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,36 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-09-20 17:01:52+09:00",
+  Title: "北海道 Vol.2",
+  share_img: "/images/2020_09_20_20.jpg",
+  slug: "hokkaido-2",
+};
+
+函館観光の続きです。
+
+![北海道 Vol.2](/images/2020_09_20_16.jpg)
+![北海道 Vol.2](/images/2020_09_20_17.jpg)
+![北海道 Vol.2](/images/2020_09_20_18.jpg)
+![北海道 Vol.2](/images/2020_09_20_19.jpg)
+![北海道 Vol.2](/images/2020_09_20_20.jpg)
+![北海道 Vol.2](/images/2020_09_20_21.jpg)
+![北海道 Vol.2](/images/2020_09_20_22.jpg)
+![北海道 Vol.2](/images/2020_09_20_23.jpg)
+![北海道 Vol.2](/images/2020_09_20_24.jpg)
+![北海道 Vol.2](/images/2020_09_20_25.jpg)
+![北海道 Vol.2](/images/2020_09_20_26.jpg)
+![北海道 Vol.2](/images/2020_09_20_27.jpg)
+![北海道 Vol.2](/images/2020_09_20_28.jpg)
+![北海道 Vol.2](/images/2020_09_20_29.jpg)
+![北海道 Vol.2](/images/2020_09_20_30.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

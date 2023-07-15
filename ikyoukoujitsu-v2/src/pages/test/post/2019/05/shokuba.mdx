@@ -1,0 +1,33 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-05-04 10:44:55+09:00",
+  Title: "cafe&bar ショクバ",
+  share_img: "/images/2019_05_04_7.JPG",
+  slug: "shokuba",
+};
+
+![cafe&bar ショクバ](/images/2019_05_04_6.JPG)
+
+![cafe&bar ショクバ](/images/2019_05_04_7.JPG)
+
+![cafe&bar ショクバ](/images/2019_05_04_8.JPG)
+
+![cafe&bar ショクバ](/images/2019_05_04_9.JPG)
+
+![cafe&bar ショクバ](/images/2019_05_04_10.JPG)
+
+![cafe&bar ショクバ](/images/2019_05_04_11.JPG)
+
+ハンモックのあるカフェ。
+夜はバーになるそうです。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

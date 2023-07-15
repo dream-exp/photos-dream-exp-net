@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-07-10 00:52:50+09:00",
+  Title: "北海道 Vol.3 ― 神威岬",
+  share_img: "/images/2022_07_10_5.jpg",
+  slug: "hokkaido-3",
+};
+
+![北海道 Vol.3 ― 神威岬](/images/2022_07_10_7.jpg)
+![北海道 Vol.3 ― 神威岬](/images/2022_07_10_1.jpg)
+![北海道 Vol.3 ― 神威岬](/images/2022_07_10_2.jpg)
+![北海道 Vol.3 ― 神威岬](/images/2022_07_10_3.jpg)
+![北海道 Vol.3 ― 神威岬](/images/2022_07_10_4.jpg)
+![北海道 Vol.3 ― 神威岬](/images/2022_07_10_5.jpg)
+![北海道 Vol.3 ― 神威岬](/images/2022_07_10_6.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

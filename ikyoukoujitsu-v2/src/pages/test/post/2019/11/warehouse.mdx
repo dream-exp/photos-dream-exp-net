@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-11-16 17:38:03+09:00",
+  Title: "電脳九龍城砦 ― ウェアハウス川崎",
+  share_img: "/images/2019_11_16_20.jpg",
+  slug: "warehouse",
+};
+
+![電脳九龍城砦 ― ウェアハウス川崎](/images/2019_11_16_20.jpg)
+![電脳九龍城砦 ― ウェアハウス川崎](/images/2019_11_16_21.jpg)
+![電脳九龍城砦 ― ウェアハウス川崎](/images/2019_11_16_22.jpg)
+![電脳九龍城砦 ― ウェアハウス川崎](/images/2019_11_16_23.jpg)
+![電脳九龍城砦 ― ウェアハウス川崎](/images/2019_11_16_24.jpg)
+![電脳九龍城砦 ― ウェアハウス川崎](/images/2019_11_16_25.jpg)
+![電脳九龍城砦 ― ウェアハウス川崎](/images/2019_11_16_26.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

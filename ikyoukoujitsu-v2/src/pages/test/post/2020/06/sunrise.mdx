@@ -1,0 +1,25 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-06-26 15:35:48+09:00",
+  Title: "サンライズに乗って",
+  share_img: "/images/2020_06_26_5.jpg",
+  slug: "sunrise",
+};
+
+![サンライズに乗って](/images/2020_06_26_1.jpg)
+![サンライズに乗って](/images/2020_06_26_2.jpg)
+![サンライズに乗って](/images/2020_06_26_3.jpg)
+![サンライズに乗って](/images/2020_06_26_4.jpg)
+![サンライズに乗って](/images/2020_06_26_5.jpg)
+![サンライズに乗って](/images/2020_06_26_6.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

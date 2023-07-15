@@ -1,0 +1,27 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-07-24 16:03:52+09:00",
+  Title: "越後湯沢 Vol.2",
+  share_img: "/images/2020_07_24_19.jpg",
+  slug: "echigoyuzawa-2",
+};
+
+![越後湯沢 Vol.2](/images/2020_07_24_14.jpg)
+![越後湯沢 Vol.2](/images/2020_07_24_15.jpg)
+![越後湯沢 Vol.2](/images/2020_07_24_16.jpg)
+![越後湯沢 Vol.2](/images/2020_07_24_17.jpg)
+![越後湯沢 Vol.2](/images/2020_07_24_18.jpg)
+![越後湯沢 Vol.2](/images/2020_07_24_19.jpg)
+![越後湯沢 Vol.2](/images/2020_07_24_20.jpg)
+![越後湯沢 Vol.2](/images/2020_07_24_21.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

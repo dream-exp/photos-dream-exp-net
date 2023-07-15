@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-08-14 20:07:16+09:00",
+  Title: "秋吉台国際芸術村",
+  share_img: "/images/2021_08_14_7.jpg",
+  slug: "akiyoshidai-international-art-village",
+};
+
+![秋吉台国際芸術村](/images/2021_08_14_1.jpg)
+![秋吉台国際芸術村](/images/2021_08_14_2.jpg)
+![秋吉台国際芸術村](/images/2021_08_14_3.jpg)
+![秋吉台国際芸術村](/images/2021_08_14_4.jpg)
+![秋吉台国際芸術村](/images/2021_08_14_5.jpg)
+![秋吉台国際芸術村](/images/2021_08_14_6.jpg)
+![秋吉台国際芸術村](/images/2021_08_14_7.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,39 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-10-23 21:39:31+09:00",
+  Title: "日本科学未来館",
+  share_img: "/images/2022_10_23_6.jpg",
+  slug: "miraikan",
+};
+
+![日本科学未来館](/images/2022_10_23_1.jpg)
+![日本科学未来館](/images/2022_10_23_2.jpg)
+![日本科学未来館](/images/2022_10_23_3.jpg)
+![日本科学未来館](/images/2022_10_23_4.jpg)
+![日本科学未来館](/images/2022_10_23_5.jpg)
+![日本科学未来館](/images/2022_10_23_6.jpg)
+![日本科学未来館](/images/2022_10_23_7.jpg)
+![日本科学未来館](/images/2022_10_23_8.jpg)
+![日本科学未来館](/images/2022_10_23_9.jpg)
+![日本科学未来館](/images/2022_10_23_10.jpg)
+![日本科学未来館](/images/2022_10_23_11.jpg)
+![日本科学未来館](/images/2022_10_23_12.jpg)
+![日本科学未来館](/images/2022_10_23_13.jpg)
+![日本科学未来館](/images/2022_10_23_14.jpg)
+![日本科学未来館](/images/2022_10_23_15.jpg)
+![日本科学未来館](/images/2022_10_23_16.jpg)
+![日本科学未来館](/images/2022_10_23_17.jpg)
+![日本科学未来館](/images/2022_10_23_18.jpg)
+![日本科学未来館](/images/2022_10_23_19.jpg)
+![日本科学未来館](/images/2022_10_23_20.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

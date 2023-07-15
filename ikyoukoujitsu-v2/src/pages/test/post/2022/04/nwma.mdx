@@ -1,0 +1,23 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-04-16 10:12:34+09:00",
+  Title: "国立西洋美術館",
+  share_img: "/images/2022_04_16_1.jpg",
+  slug: "nwma",
+};
+
+![国立西洋美術館](/images/2022_04_16_1.jpg)
+![国立西洋美術館](/images/2022_04_16_2.jpg)
+![国立西洋美術館](/images/2022_04_16_3.jpg)
+![国立西洋美術館](/images/2022_04_16_4.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,41 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-06-03 23:35:52+09:00",
+  Title: "駒込",
+  share_img: "/images/2019_06_03_7.JPG",
+  slug: "komagome",
+};
+
+初めて訪れた駒込
+
+![駒込](/images/2019_06_03_1.JPG)
+![駒込](/images/2019_06_03_2.JPG)
+![駒込](/images/2019_06_03_3.JPG)
+![駒込](/images/2019_06_03_4.JPG)
+![駒込](/images/2019_06_03_5.JPG)
+![駒込](/images/2019_06_03_6.JPG)
+![駒込](/images/2019_06_03_7.JPG)
+![駒込](/images/2019_06_03_8.JPG)
+![駒込](/images/2019_06_03_9.JPG)
+![駒込](/images/2019_06_03_10.JPG)
+![駒込](/images/2019_06_03_11.JPG)
+![駒込](/images/2019_06_03_12.JPG)
+![駒込](/images/2019_06_03_13.JPG)
+![駒込](/images/2019_06_03_14.JPG)
+![駒込](/images/2019_06_03_15.JPG)
+![駒込](/images/2019_06_03_16.JPG)
+![駒込](/images/2019_06_04_1.JPG)
+![駒込](/images/2019_06_04_2.JPG)
+![駒込](/images/2019_06_04_3.JPG)
+![駒込](/images/2019_06_04_4.JPG)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

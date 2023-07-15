@@ -1,0 +1,25 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-09-15 00:04:51+09:00",
+  Title: "横浜中華街",
+  share_img: "/images/2022_09_15_1.jpg",
+  slug: "yokohama-china-town",
+};
+
+![横浜中華街](/images/2022_09_15_1.jpg)
+![横浜中華街](/images/2022_09_15_2.jpg)
+![横浜中華街](/images/2022_09_15_3.jpg)
+![横浜中華街](/images/2022_09_15_4.jpg)
+![横浜中華街](/images/2022_09_15_5.jpg)
+![横浜中華街](/images/2022_09_15_6.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

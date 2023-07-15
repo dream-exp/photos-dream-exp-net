@@ -1,0 +1,24 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-01-12 21:59:24+09:00",
+  Title: "夜さんぽ ― 水道橋 と 霧のつくば",
+  share_img: "/images/2020_01_08_1.jpg",
+  slug: "nightwalk",
+};
+
+![夜さんぽ ― 水道橋 と 霧のつくば](/images/2020_01_08_1.jpg)
+![夜さんぽ ― 水道橋 と 霧のつくば](/images/2020_01_08_2.jpg)
+![夜さんぽ ― 水道橋 と 霧のつくば](/images/2020_01_08_3.jpg)
+![夜さんぽ ― 水道橋 と 霧のつくば](/images/2020_01_08_4.jpg)
+![夜さんぽ ― 水道橋 と 霧のつくば](/images/2020_01_08_5.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

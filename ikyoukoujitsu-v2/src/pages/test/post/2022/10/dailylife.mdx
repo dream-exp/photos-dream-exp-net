@@ -1,0 +1,28 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-10-30 21:35:20+09:00",
+  Title: "日々の中で",
+  share_img: "/images/2022_10_30_4.jpg",
+  slug: "dailylife",
+};
+
+![日々の中で](/images/2022_10_30_1.jpg)
+![日々の中で](/images/2022_10_30_2.jpg)
+![日々の中で](/images/2022_10_30_3.jpg)
+![日々の中で](/images/2022_10_30_4.jpg)
+![日々の中で](/images/2022_10_30_5.jpg)
+![日々の中で](/images/2022_10_30_6.jpg)
+![日々の中で](/images/2022_10_30_7.jpg)
+![日々の中で](/images/2022_10_30_8.jpg)
+![日々の中で](/images/2022_10_30_9.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,53 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2023-02-12 02:57:44+09:00",
+  Title: "京都 その4",
+  share_img: "/images/2023_02_12_38.jpg",
+  slug: "kyoto-4",
+};
+
+京都の続き。
+
+![京都 その4](/images/2023_02_12_38.jpg)
+![京都 その4](/images/2023_02_12_39.jpg)
+
+京都でつい撮りたくなる景色といえば、やはり路地。徒歩で回っているうちにたくさんの素敵な路地に出会えました。
+
+![京都 その4](/images/2023_02_12_40.jpg)
+![京都 その4](/images/2023_02_12_41.jpg)
+
+清水坂をずっと下って宮川町方面へ向かっていると、素敵なカフェに出会いました。
+ちょうど小腹が空いてきたところだったので、遅めのランチをいただくことにしました。
+
+![京都 その4](/images/2023_02_12_42.jpg)
+![京都 その4](/images/2023_02_12_43.jpg)
+![京都 その4](/images/2023_02_12_44.jpg)
+
+この「SAGAN」というお店、今回自分が京都を訪れる大きなきっかけになったキョウトボーイズさんも訪れていてびっくりしました（後々動画を見ていて気が付きました）。
+
+![京都 その4](/images/2023_02_12_45.jpg)
+![京都 その4](/images/2023_02_12_46.jpg)
+![京都 その4](/images/2023_02_12_47.jpg)
+
+<span className="caption">サカナクションかと思った</span>
+
+![京都 その4](/images/2023_02_12_48.jpg)
+![京都 その4](/images/2023_02_12_49.jpg)
+
+地下鉄に乗って出町柳方面へ。鴨川デルタを目指します。
+
+Leica M10<br />
+Voigtlander NOKTON classic 35mm F1.4 Ⅱ SC<br />
+Voigtlander HELIAR classic 50mm F1.5<br />
+Voigtlander Voigtlander COLOR-SKOPAR 21mm F4P
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

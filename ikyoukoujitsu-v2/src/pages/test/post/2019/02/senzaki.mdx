@@ -1,0 +1,48 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-02-17 23:58:02+09:00",
+  Title: "長門 / 仙崎",
+  share_img: "/images/2019_02_17_14.jpg",
+  slug: "senzaki",
+};
+
+![長門 / 仙崎](/images/2019_02_17_1.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_3.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_4.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_7.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_8.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_9.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_10.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_11.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_12.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_13.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_14.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_15.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_16.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_17.jpg)
+
+![長門 / 仙崎](/images/2019_02_17_18.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

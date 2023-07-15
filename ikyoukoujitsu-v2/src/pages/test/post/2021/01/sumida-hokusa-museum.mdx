@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-01-31 17:13:55+09:00",
+  Title: "すみだ北斎美術館",
+  share_img: "/images/2021_01_31_7.jpg",
+  slug: "sumida-hokusa-museum",
+};
+
+![すみだ北斎美術館](/images/2021_01_31_1.jpg)
+![すみだ北斎美術館](/images/2021_01_31_2.jpg)
+![すみだ北斎美術館](/images/2021_01_31_3.jpg)
+![すみだ北斎美術館](/images/2021_01_31_4.jpg)
+![すみだ北斎美術館](/images/2021_01_31_5.jpg)
+![すみだ北斎美術館](/images/2021_01_31_6.jpg)
+![すみだ北斎美術館](/images/2021_01_31_7.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

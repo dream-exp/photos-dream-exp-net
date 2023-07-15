@@ -1,0 +1,31 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-10-26 17:04:14+09:00",
+  Title: "日光",
+  share_img: "/images/2019_10_26_7.JPG",
+  slug: "nikkou",
+};
+
+![日光](/images/2019_10_26_1.JPG)
+![日光](/images/2019_10_26_2.JPG)
+![日光](/images/2019_10_26_3.JPG)
+![日光](/images/2019_10_26_4.JPG)
+![日光](/images/2019_10_26_5.JPG)
+![日光](/images/2019_10_26_6.JPG)
+![日光](/images/2019_10_26_7.JPG)
+![日光](/images/2019_10_26_8.JPG)
+![日光](/images/2019_10_26_9.JPG)
+![日光](/images/2019_10_26_10.JPG)
+![日光](/images/2019_10_26_11.JPG)
+![日光](/images/2019_10_26_12.JPG)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

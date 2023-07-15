@@ -1,0 +1,31 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-05-03 10:43:29+09:00",
+  Title: "Geometric",
+  share_img: "/images/2022_05_03_7.jpg",
+  slug: "geometric",
+};
+
+![Geometric](/images/2022_05_03_1.jpg)
+![Geometric](/images/2022_05_03_2.jpg)
+![Geometric](/images/2022_05_03_3.jpg)
+![Geometric](/images/2022_05_03_4.jpg)
+![Geometric](/images/2022_05_03_5.jpg)
+![Geometric](/images/2022_05_03_6.jpg)
+![Geometric](/images/2022_05_03_7.jpg)
+![Geometric](/images/2022_05_03_8.jpg)
+![Geometric](/images/2022_05_03_9.jpg)
+![Geometric](/images/2022_05_03_10.jpg)
+![Geometric](/images/2022_05_03_16.jpg)
+![Geometric](/images/2022_05_03_17.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

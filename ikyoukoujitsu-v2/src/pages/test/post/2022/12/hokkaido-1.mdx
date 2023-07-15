@@ -1,0 +1,44 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-12-17 23:17:32+09:00",
+  Title: "北海道 Vol.1",
+  share_img: "/images/2022_12_17_11.jpg",
+  slug: "hokkaido-1",
+};
+
+両親に北海道旅行をプレゼント。
+
+![北海道 Vol.1](/images/2022_12_17_1.jpg)
+![北海道 Vol.1](/images/2022_12_17_2.jpg)
+
+両親は初めての北海道ということで、まずはベターに道央を選択。
+
+![北海道 Vol.1](/images/2022_12_17_3.jpg)
+![北海道 Vol.1](/images/2022_12_17_4.jpg)
+
+味噌ラーメン屋での一コマ。結露を見ると雪国に来たなと感じます。
+
+![北海道 Vol.1](/images/2022_12_17_5.jpg)
+![北海道 Vol.1](/images/2022_12_17_6.jpg)
+![北海道 Vol.1](/images/2022_12_17_7.jpg)
+![北海道 Vol.1](/images/2022_12_17_8.jpg)
+![北海道 Vol.1](/images/2022_12_17_9.jpg)
+![北海道 Vol.1](/images/2022_12_17_10.jpg)
+![北海道 Vol.1](/images/2022_12_17_11.jpg)
+![北海道 Vol.1](/images/2022_12_17_12.jpg)
+![北海道 Vol.1](/images/2022_12_17_13.jpg)
+
+今年の夏に訪れた真駒内滝野霊園。雪景色も見てみたくて今回再訪しました。
+
+グレースケールでまとめられた構造物の中に雪がアクセントとして入ることで、夏とはまた違った景色を味わうことができました。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,30 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2023-01-23 02:34:41+09:00",
+  Title: "大井町",
+  share_img: "/images/2023_01_23_3.jpg",
+  slug: "oimachi",
+};
+
+![大井町](/images/2023_01_23_1.jpg)
+![大井町](/images/2023_01_23_2.jpg)
+![大井町](/images/2023_01_23_3.jpg)
+![大井町](/images/2023_01_23_4.jpg)
+![大井町](/images/2023_01_23_5.jpg)
+![大井町](/images/2023_01_23_6.jpg)
+![大井町](/images/2023_01_23_7.jpg)
+![大井町](/images/2023_01_23_8.jpg)
+
+Leica M10<br />
+Voigtlander NOKTON classic 35mm F1.4 Ⅱ SC
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

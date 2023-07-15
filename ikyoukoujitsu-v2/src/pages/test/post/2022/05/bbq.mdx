@@ -1,0 +1,23 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-05-05 11:04:13+09:00",
+  Title: "BBQ",
+  share_img: "/images/2022_05_05_2.jpg",
+  slug: "bbq",
+};
+
+![BBQ](/images/2022_05_05_1.jpg)
+![BBQ](/images/2022_05_05_2.jpg)
+![BBQ](/images/2022_05_05_3.jpg)
+![BBQ](/images/2022_05_05_4.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

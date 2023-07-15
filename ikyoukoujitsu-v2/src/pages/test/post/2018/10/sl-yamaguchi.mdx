@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2018-10-16 22:56:12+09:00",
+  Title: "初秋 SLやまぐち号",
+  share_img: "/images/IMG_5263.jpg",
+  slug: "sl-yamaguchi",
+};
+
+![初秋 SLやまぐち号](/images/IMG_5263.jpg)
+
+<span className="caption">9522レ 長門峡 ― 篠目</span>
+
+久々に SL やまぐち号を沿線で撮影。
+
+通り過ぎるときに、機関士さんが汽笛を鳴らしてくれたり、乗客の方々が手を振ってくれたりと、近年の電車にはないほのぼのとした風景が広がっているのもまた、SL の良いところですね。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

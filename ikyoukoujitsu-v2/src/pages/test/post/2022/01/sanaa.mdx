@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-01-23 00:21:52+09:00",
+  Title: "SANAA展",
+  share_img: "/images/2022_01_23_13.jpg",
+  slug: "sanaa",
+};
+
+![SANAA展](/images/2022_01_23_8.jpg)
+![SANAA展](/images/2022_01_23_9.jpg)
+![SANAA展](/images/2022_01_23_10.jpg)
+![SANAA展](/images/2022_01_23_11.jpg)
+![SANAA展](/images/2022_01_23_12.jpg)
+![SANAA展](/images/2022_01_23_13.jpg)
+![SANAA展](/images/2022_01_23_14.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

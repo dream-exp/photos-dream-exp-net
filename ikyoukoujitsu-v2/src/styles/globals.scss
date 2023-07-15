@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fff;
+  color: #888;
+}
+
+.article-content {
+  p {
+    @apply mt-4 w-full leading-8;
+  }
+
+  span.caption {
+    @apply text-sm text-center w-full block pb-8 -mt-8;
+  }
+
+  img {
+    @apply my-8 max-h-[100vh] mx-auto;
+  }
+}

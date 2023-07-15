@@ -1,0 +1,54 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2023-02-11 01:15:50+09:00",
+  Title: "滋賀 その1",
+  share_img: "/images/2023_02_11_26.jpg",
+  slug: "shiga-1",
+};
+
+未訪問都道府県を巡る旅。
+
+敦賀から湖西線を経由して、目指すはびわ湖バレイ。途中、近江舞子駅で各駅停車に乗り換え。
+
+![滋賀 その1](/images/2023_02_11_14.jpg)
+![滋賀 その1](/images/2023_02_11_15.jpg)
+![滋賀 その1](/images/2023_02_11_16.jpg)
+![滋賀 その1](/images/2023_02_11_17.jpg)
+
+久々にレトロな国鉄車両に乗り合わせました。地元の山口で毎日通学していた時を思い出します。
+
+びわ湖バレイ最寄りの志賀駅からバスに乗り換えます。乗り継ぎに少し余裕があったので、琵琶湖のほとりまで行ってみました。
+
+![滋賀 その1](/images/2023_02_11_18.jpg)
+![滋賀 その1](/images/2023_02_11_19.jpg)
+![滋賀 その1](/images/2023_02_11_20.jpg)
+![滋賀 その1](/images/2023_02_11_21.jpg)
+バスに乗ってロープウェイの麓へ。さらにロープウェイに乗り継いで頂上へ向かいます。
+![滋賀 その1](/images/2023_02_11_22.jpg)
+![滋賀 その1](/images/2023_02_11_23.jpg)
+![滋賀 その1](/images/2023_02_11_24.jpg)
+![滋賀 その1](/images/2023_02_11_25.jpg)
+![滋賀 その1](/images/2023_02_11_26.jpg)
+![滋賀 その1](/images/2023_02_11_27.jpg)
+![滋賀 その1](/images/2023_02_11_28.jpg)
+
+山頂はガンガン雪が残っていて、雪遊びをする子どもたちで大盛況。
+
+冬晴れの澄んだ空気の中で琵琶湖を見渡し、改めてその大きさに驚くのでした。
+
+Leica M10<br />
+Voigtlander NOKTON classic 35mm F1.4 Ⅱ SC<br />
+Voigtlander HELIAR classic 50mm F1.5<br />
+Voigtlander Voigtlander COLOR-SKOPAR 21mm F4P<br />
+MINOLTA M-ROKKOR 90mm F4
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

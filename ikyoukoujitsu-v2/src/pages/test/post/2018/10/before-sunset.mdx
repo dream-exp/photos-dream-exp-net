@@ -1,0 +1,22 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2018-10-17 22:48:57+09:00",
+  Title: "日没前",
+  share_img: "/images/IMG_5275.jpg",
+  slug: "before-sunset",
+};
+
+![日没前](/images/IMG_5275.jpg)
+
+山の稜線に日が沈む少し前、雲に差し込んだ日差しが生むコントラスト
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

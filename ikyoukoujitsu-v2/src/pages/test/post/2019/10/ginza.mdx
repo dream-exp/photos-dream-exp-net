@@ -1,0 +1,28 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-10-22 19:22:56+09:00",
+  Title: "銀座 / イズマイル・バリー展",
+  share_img: "/images/2019_10_22_2.jpg",
+  slug: "ginza",
+};
+
+![銀座 / イズマイル・バリー展](/images/2019_10_22_1.jpg)
+
+![銀座 / イズマイル・バリー展](/images/2019_10_22_2.jpg)
+
+![銀座 / イズマイル・バリー展](/images/2019_10_22_3.jpg)
+
+![銀座 / イズマイル・バリー展](/images/2019_10_22_4.jpg)
+
+「みえないかかわり」イズマイル・バリー展 / 銀座メゾンエルメス フォーラム
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

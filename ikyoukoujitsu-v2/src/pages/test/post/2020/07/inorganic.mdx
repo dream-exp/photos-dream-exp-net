@@ -1,0 +1,23 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-07-24 15:47:01+09:00",
+  Title: "無機質",
+  share_img: "/images/2020_07_24_3.jpg",
+  slug: "inorganic",
+};
+
+![無機質](/images/2020_07_19_1.jpg)
+![無機質](/images/2020_07_24_1.jpg)
+![無機質](/images/2020_07_24_2.jpg)
+![無機質](/images/2020_07_24_3.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

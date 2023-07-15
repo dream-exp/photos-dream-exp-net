@@ -1,0 +1,27 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-11-29 17:37:11+09:00",
+  Title: "Geometric",
+  share_img: "/images/2020_11_29_3.jpg",
+  slug: "geometric",
+};
+
+![Geometric](/images/2020_11_29_1.jpg)
+![Geometric](/images/2020_11_29_2.jpg)
+![Geometric](/images/2020_11_29_3.jpg)
+![Geometric](/images/2020_11_29_4.jpg)
+![Geometric](/images/2020_11_29_5.jpg)
+![Geometric](/images/2020_11_29_6.jpg)
+![Geometric](/images/2020_11_29_7.jpg)
+![Geometric](/images/2020_11_29_9.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,40 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-12-26 21:11:06+09:00",
+  Title: "帰省 2019/12/26",
+  share_img: "/images/2019_12_26_4.jpg",
+  slug: "hometown",
+};
+
+![帰省 2019/12/26](/images/2019_12_26_2.jpg)
+
+<span className="caption">
+  帰省の飛行機では、珍しくブロッケン現象を目にすることができました。
+</span>
+
+![帰省 2019/12/26](/images/2019_12_26_1.jpg)
+![帰省 2019/12/26](/images/2019_12_26_3.jpg)
+![帰省 2019/12/26](/images/2019_12_26_4.jpg)
+
+<span className="caption">
+  地元を走っているJR線は未だに電子マネー非対応。
+  <br />
+  久しぶりに券売機で切符を買いました。
+</span>
+![帰省 2019/12/26](/images/2019_12_26_5.jpg)
+<span className="caption">
+  帰ったその日の夕方、去年までバイトしていた喫茶店を訪れる。
+  <br />
+  ここに帰ってくると、帰省したなあって感じがします。そんな場所が地元にあるって嬉しいことです。
+</span>
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

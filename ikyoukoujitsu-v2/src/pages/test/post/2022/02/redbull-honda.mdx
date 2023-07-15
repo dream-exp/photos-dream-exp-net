@@ -1,0 +1,25 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-02-26 09:16:49+09:00",
+  Title: "RedBull Honda ”ありがとう” Livery",
+  share_img: "/images/2022_02_26_1.jpg",
+  slug: "redbull-honda",
+};
+
+![RedBull Honda ”ありがとう” Livery](/images/2022_02_26_6.jpg)
+![RedBull Honda ”ありがとう” Livery](/images/2022_02_26_5.jpg)
+![RedBull Honda ”ありがとう” Livery](/images/2022_02_26_1.jpg)
+![RedBull Honda ”ありがとう” Livery](/images/2022_02_26_2.jpg)
+![RedBull Honda ”ありがとう” Livery](/images/2022_02_26_3.jpg)
+![RedBull Honda ”ありがとう” Livery](/images/2022_02_26_4.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

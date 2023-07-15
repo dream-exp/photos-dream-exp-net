@@ -1,0 +1,24 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2018-10-21 20:43:59+09:00",
+  Title: "月見",
+  share_img: "/images/IMG_5412.jpg",
+  slug: "moon-viewing",
+};
+
+![月見](/images/IMG_5412.jpg)
+
+<span className="caption">日の暮れゆく秋吉台にて</span>
+
+今頃になってお月見らしい風景をみつけました。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,34 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-02-06 09:04:53+09:00",
+  Title: "Haneda Airport",
+  share_img: "/images/2019_02_04_6.jpg",
+  slug: "haneda-airport",
+};
+
+![Haneda Airport](/images/2019_02_04_6.jpg)
+
+![Haneda Airport](/images/2019_02_04_5.jpg)
+
+![Haneda Airport](/images/2019_02_04_7.jpg)
+
+![Haneda Airport](/images/2019_02_04_8.jpg)
+
+![Haneda Airport](/images/2019_02_04_9.jpg)
+
+![Haneda Airport](/images/2019_02_04_10.jpg)
+
+![Haneda Airport](/images/2019_02_04_11.jpg)
+
+![Haneda Airport](/images/2019_02_04_12.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

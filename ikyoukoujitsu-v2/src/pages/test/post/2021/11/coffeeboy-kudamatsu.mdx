@@ -1,0 +1,23 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-11-05 23:30:59+09:00",
+  Title: "コーヒーボーイ下松店 ５周年記念グッズ",
+  share_img: "/images/2021_11_05_1.jpg",
+  slug: "coffeeboy-kudamatsu",
+};
+
+以前に写真展も開催させていただいたコーヒーボーイ下松店様の５周年記念グッズ、サコッシュのデザインを担当しました。
+
+![コーヒーボーイ下松店 ５周年記念グッズ](/images/2021_11_05_1.jpg)
+![コーヒーボーイ下松店 ５周年記念グッズ](/images/2021_11_05_2.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

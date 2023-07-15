@@ -1,0 +1,48 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2023-02-11 01:00:20+09:00",
+  Title: "敦賀",
+  share_img: "/images/2023_02_11_6.jpg",
+  slug: "tsuruga",
+};
+
+未訪問都道府県を巡る旅。
+
+今回は土日を利用して福井県と滋賀県、その後京都を観光して帰るプランを立てました。
+
+![敦賀](/images/2023_02_11_1.jpg)
+![敦賀](/images/2023_02_11_2.jpg)
+![敦賀](/images/2023_02_11_3.jpg)
+![敦賀](/images/2023_02_11_4.jpg)
+
+米原でしらさぎに乗り換えて敦賀へ。
+
+北陸新幹線の延伸を待ってから訪問するか悩みましたが、今年中に 47 都道府県を埋めておきたくて訪問することにしました。
+
+![敦賀](/images/2023_02_11_5.jpg)
+![敦賀](/images/2023_02_11_6.jpg)
+![敦賀](/images/2023_02_11_7.jpg)
+![敦賀](/images/2023_02_11_8.jpg)
+![敦賀](/images/2023_02_11_9.jpg)
+![敦賀](/images/2023_02_11_10.jpg)
+![敦賀](/images/2023_02_11_11.jpg)
+![敦賀](/images/2023_02_11_12.jpg)
+![敦賀](/images/2023_02_11_13.jpg)
+
+駅前を少し散歩して、スタバでコーヒーを飲んでとんぼ返り。
+
+福井は黒川紀章設計の恐竜博物館や東尋坊などまだまだ訪れたいところはたくさんあるので、また来ます。
+
+Leica M10<br />
+Voigtlander HELIAR classic 50mm F1.5<br />
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,27 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-11-07 17:20:09+09:00",
+  Title: "鎌倉・江ノ島",
+  share_img: "/images/2020_11_07_7.jpg",
+  slug: "kamakura-enoshima",
+};
+
+![鎌倉・江ノ島](/images/2020_11_07_1.jpg)
+![鎌倉・江ノ島](/images/2020_11_07_2.jpg)
+![鎌倉・江ノ島](/images/2020_11_07_3.jpg)
+![鎌倉・江ノ島](/images/2020_11_07_4.jpg)
+![鎌倉・江ノ島](/images/2020_11_07_5.jpg)
+![鎌倉・江ノ島](/images/2020_11_07_6.jpg)
+![鎌倉・江ノ島](/images/2020_11_07_7.jpg)
+![鎌倉・江ノ島](/images/2020_11_07_8.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

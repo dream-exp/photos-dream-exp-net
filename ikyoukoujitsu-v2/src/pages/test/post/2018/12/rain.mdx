@@ -1,0 +1,30 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2018-12-11 21:25:03+09:00",
+  Title: "雨",
+  share_img: "/images/2018_12_11_1.JPG",
+  slug: "rain",
+};
+
+SuperTakumar 55mm f1.8 の初陣は雨。このレンズは晴天下で逆光気味に撮ってこそのレンズだと思うが、せっかくなので今日は付けっぱなしにして撮影した。
+
+![雨](/images/2018_12_11_2.JPG)
+
+![雨](/images/2018_12_11_1.JPG)
+
+![雨](/images/2018_12_11_3.JPG)
+
+少し前までは雨の日は気持ちが沈みがちだったけど、カメラを買ってから雨の日が好きになった。雨の日は街が輝いて見えて、いつもは気にしないところにも眼が行くようになる。
+
+皆さんも雨の日は傘とカメラを持って街を歩いてみてはいかが？
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

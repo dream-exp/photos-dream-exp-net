@@ -1,0 +1,22 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-02-15 23:11:24+09:00",
+  Title: "Monochrome",
+  share_img: "/images/2020_02_15_1.jpg",
+  slug: "monochrome",
+};
+
+![Monochrome](/images/2020_02_15_1.jpg)
+![Monochrome](/images/2020_02_15_2.jpg)
+![Monochrome](/images/2020_02_15_3.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,69 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-01-13 00:00:04+09:00",
+  Title: "冬晴れの鎌倉 Vol.1",
+  share_img: "/images/2020_01_13_9.jpg",
+  slug: "kamakura-v1",
+};
+
+Prime Video で海街 diary を見た翌日、気づいたらなぜか身体が勝手に鎌倉に向かっており...<br />
+
+今回は横須賀線のグリーン車に乗ってみることに。都内から鎌倉までの 50 分弱の時間をゆったりとした座席で過ごせるのはいいですね。次回行くときも利用しようと思います。
+
+鎌倉に到着してまず向かったのは <a href="https://vervecoffee.jp/pages/kamakura">「VERVE COFFEE ROASTERS」</a> 。
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_1.jpg)
+
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_2.jpg)
+
+<span className="caption">
+  コーヒーとワッフル。ワッフルがちょうどよい甘さで、コーヒーともよく合います。
+</span>
+
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_3.jpg)
+
+<span className="caption">面白い形の椅子</span>
+
+お店を出て、若宮大路を由比ヶ浜へ向かって南下。
+
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_4.jpg)
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_5.jpg)
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_6.jpg)
+
+由比ヶ浜沿いを歩き、お昼ごはんを食べに寄ったのは <a href="https://sites.google.com/site/magokorokamakura/">「麻心」</a> 。
+実はこのお店、海街 diary で登場するお店なんです。
+
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_8.jpg)
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_7.jpg)
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_9.jpg)
+
+<span className="caption">
+  ちゃんとお店にも海街diaryの本が置いてありました。残念ながら劇中に出てくるコロッケサンドはメニューに無い模様。
+</span>
+
+極楽寺駅まで向かう途中に、御霊神社に少しだけ立ち寄りました。
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_11.jpg)
+
+<span className="caption">ちょうどやってきた江ノ電</span>
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_12.jpg)
+<span className="caption">成就院横の坂道</span>
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_13.jpg)
+<span className="caption">
+  夏にも撮ったこのアングルをもう一度。ここから見る由比ヶ浜、好きです。
+</span>
+![冬晴れの鎌倉 Vol.1](/images/2020_01_13_14.jpg)
+<span className="caption">
+  海街diaryでたくさん登場する極楽寺駅周辺。このお店もちらっと映っていた気がします。
+</span>
+
+<a href="https://photos.dream-exp.net/2020/01/kamakura-v2/">Vol.2</a> へ続く。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

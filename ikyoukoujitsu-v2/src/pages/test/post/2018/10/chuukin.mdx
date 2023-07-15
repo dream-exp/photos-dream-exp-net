@@ -1,0 +1,22 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2018-10-10 13:50:40+09:00",
+  Title: "駐車禁止",
+  share_img: "/images/chuukin.jpg",
+  slug: "chuukin",
+};
+
+![駐車禁止](/images/chuukin.jpg)
+
+<span className="caption">駐車禁止 ≠ 駐輪禁止</span>
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

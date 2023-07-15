@@ -1,0 +1,56 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-09-24 19:50:24+09:00",
+  Title: "北海道 Vol.9",
+  share_img: "/images/2020_09_24_10.jpg",
+  slug: "hokkaido-9",
+};
+
+北海道 5 日目。
+
+この日は日本本土最北端の地、宗谷岬を目指します。
+
+![北海道 Vol.9](/images/2020_09_24_1.jpg)
+![北海道 Vol.9](/images/2020_09_24_2.jpg)
+
+<span className="caption">
+  デザインがお気に入りの旭川駅。木のぬくもりを感じる駅舎部とは反対に、ホームは骨組みを全面に推した無骨な仕上がりに。
+</span>
+![北海道 Vol.9](/images/2020_09_24_3.jpg)
+<span className="caption">
+  旭川から稚内まで、3時間40分の列車の旅。北海道内を移動していると、このくらいの長さは当たり前になってきます。
+</span>
+![北海道 Vol.9](/images/2020_09_24_4.jpg)
+<span className="caption">
+  稚内からバスに乗り換えて宗谷岬へ。車窓から宗谷海峡を望む。
+</span>
+![北海道 Vol.9](/images/2020_09_24_5.jpg)
+<span className="caption">無事、本土最北端へたどり着きました。</span>
+![北海道 Vol.9](/images/2020_09_24_6.jpg) ![北海道 Vol.9](/images/2020_09_24_7.jpg)
+![北海道 Vol.9](/images/2020_09_24_8.jpg)
+
+稚内市街地は昔ロシアの船が港へ出入りしていた名残で、今もキリル文字の看板が多く残っています。道路標識にも書いてありましたね。
+
+![北海道 Vol.9](/images/2020_09_24_9.jpg)
+![北海道 Vol.9](/images/2020_09_24_10.jpg)
+
+<span className="caption">稚内港北防波堤ドーム</span>
+![北海道 Vol.9](/images/2020_09_24_11.jpg)
+<span className="caption">来た道をまた引き返します。</span>
+![北海道 Vol.9](/images/2020_09_24_12.jpg)
+<span className="caption">
+  途中、鹿と衝突した影響で音威子府駅でしばらく停車。
+</span>
+
+続く。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,49 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-02-05 18:55:52+09:00",
+  Title: "次郎丸",
+  share_img: "/images/2019_02_03_17.jpg",
+  slug: "jiroumaru",
+};
+
+![次郎丸](/images/2019_02_03_15.jpg)
+
+![次郎丸](/images/2019_02_03_16.jpg)
+
+<span className="caption">
+  秋葉原にある"立ち食い"焼き肉「次郎丸」は、食べたい部位のお肉を枚数単位で頼んで楽しめるお店。
+</span>
+
+![次郎丸](/images/2019_02_03_17.jpg)
+
+![次郎丸](/images/2019_02_03_18.jpg)
+
+![次郎丸](/images/2019_02_03_19.jpg)
+
+<span className="caption">タン元。とっても美味しかった。</span>
+
+![次郎丸](/images/2019_02_03_20.jpg)
+
+<span className="caption">
+  立ち食いなのでグリルも小さめ。高火力であっという間に焼けてしまうので、せっかくの美味しいお肉を焦がさないように注意しなければならない。
+</span>
+
+人生初の立ち食い焼き肉。
+元来少食なので、同じ値段出して食べるなら焼き肉食べ放題とかよりもこういう形態の焼き肉屋の方が自分には合ってると思った。
+
+あと 2 切れで 30 円の「ノドブエ」というホルモンを食べたのだけれど、これもまたすごく美味しかった。秋葉原でご飯に困ったらまた寄ってみようかな。
+
+<a href="http://jiroumaru.jp/">次郎丸 秋葉原店</a><br />
+<!-- 〒730-0036 広島県広島市中区袋町3-28<br /> -->
+営業時間：11:00 – 23:00 / 定休日：なし
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

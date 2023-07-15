@@ -1,0 +1,27 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-04-18 02:05:31+09:00",
+  Title: "富山 Vol.1 | 富岩環水公園",
+  share_img: "/images/2021_04_18_35.jpg",
+  slug: "toyama-1",
+};
+
+![富山 Vol.1 | 富岩環水公園](/images/2021_04_18_30.jpg)
+![富山 Vol.1 | 富岩環水公園](/images/2021_04_18_31.jpg)
+![富山 Vol.1 | 富岩環水公園](/images/2021_04_18_32.jpg)
+![富山 Vol.1 | 富岩環水公園](/images/2021_04_18_33.jpg)
+![富山 Vol.1 | 富岩環水公園](/images/2021_04_18_34.jpg)
+![富山 Vol.1 | 富岩環水公園](/images/2021_04_18_35.jpg)
+![富山 Vol.1 | 富岩環水公園](/images/2021_04_18_36.jpg)
+![富山 Vol.1 | 富岩環水公園](/images/2021_04_18_37.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

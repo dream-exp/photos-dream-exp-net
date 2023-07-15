@@ -1,0 +1,30 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-05-04 10:41:39+09:00",
+  Title: "柴犬",
+  share_img: "/images/2019_05_04_1.JPG",
+  slug: "shibaken",
+};
+
+![柴犬](/images/2019_05_04_1.JPG)
+
+![柴犬](/images/2019_05_04_2.JPG)
+
+![柴犬](/images/2019_05_04_3.JPG)
+
+![柴犬](/images/2019_05_04_4.JPG)
+
+![柴犬](/images/2019_05_04_5.JPG)
+
+かわいい柴犬のコマ撮り
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

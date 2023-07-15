@@ -1,0 +1,36 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-09-22 01:32:04+09:00",
+  Title: "北海道 Vol.5",
+  share_img: "/images/2020_09_22_8.jpg",
+  slug: "hokkaido-5",
+};
+
+今回の旅行前に、北海道出身の方に教えてもらったおすすめの場所がモエレ沼公園でした。
+
+こんなにも自分の「好き」が集まった空間はこれまでで初めてです。
+
+![北海道 Vol.5](/images/2020_09_22_1.jpg)
+![北海道 Vol.5](/images/2020_09_22_2.jpg)
+![北海道 Vol.5](/images/2020_09_22_3.jpg)
+![北海道 Vol.5](/images/2020_09_22_4.jpg)
+![北海道 Vol.5](/images/2020_09_22_5.jpg)
+![北海道 Vol.5](/images/2020_09_22_6.jpg)
+![北海道 Vol.5](/images/2020_09_22_7.jpg)
+![北海道 Vol.5](/images/2020_09_22_8.jpg)
+![北海道 Vol.5](/images/2020_09_22_9.jpg)
+![北海道 Vol.5](/images/2020_09_22_10.jpg)
+![北海道 Vol.5](/images/2020_09_22_11.jpg)
+
+続く。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

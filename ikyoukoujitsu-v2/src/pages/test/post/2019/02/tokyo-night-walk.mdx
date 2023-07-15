@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-02-06 08:42:46+09:00",
+  Title: "Tokyo Night Walk",
+  share_img: "/images/2019_02_03_14.jpg",
+  slug: "tokyo-night-walk",
+};
+
+![Tokyo Night Walk](/images/2019_02_03_13.jpg)
+
+![Tokyo Night Walk](/images/2019_02_03_14.jpg)
+
+![Tokyo Night Walk](/images/2019_02_03_21.jpg)
+
+![Tokyo Night Walk](/images/2019_02_03_23.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

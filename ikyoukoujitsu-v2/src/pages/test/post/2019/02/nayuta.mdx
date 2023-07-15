@@ -1,0 +1,38 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-02-10 20:29:48+09:00",
+  Title: "喫茶nayuta",
+  share_img: "/images/2019_02_09_1.jpg",
+  slug: "nayuta",
+};
+
+入試間のお昼休みに寄ったカフェ。
+
+![喫茶nayuta](/images/2019_02_09_4.jpg)
+
+![喫茶nayuta](/images/2019_02_09_1.jpg)
+
+![喫茶nayuta](/images/2019_02_09_2.jpg)
+
+<span className="caption">カフェラテを注文。泡強めなカフェラテでした。</span>
+
+![喫茶nayuta](/images/2019_02_09_3.jpg)
+
+<span className="caption">Biscoffおいしいよね</span>
+
+<a href="http://kissanayuta.com/">喫茶nayuta</a>
+<br />
+〒503-0006 岐阜県大垣市加賀野5-17-1
+<br />
+営業時間：7:00 – 18:00 / 定休日：火曜日
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

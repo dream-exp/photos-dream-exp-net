@@ -1,0 +1,25 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-07-11 17:11:19+09:00",
+  Title: "北海道 Vol.7 ― 美瑛・富良野",
+  share_img: "/images/2022_07_11_20.jpg",
+  slug: "hokkaido-7",
+};
+
+![北海道 Vol.7 ― 美瑛・富良野](/images/2022_07_11_19.jpg)
+![北海道 Vol.7 ― 美瑛・富良野](/images/2022_07_11_20.jpg)
+![北海道 Vol.7 ― 美瑛・富良野](/images/2022_07_11_22.jpg)
+![北海道 Vol.7 ― 美瑛・富良野](/images/2022_07_11_23.jpg)
+![北海道 Vol.7 ― 美瑛・富良野](/images/2022_07_11_24.jpg)
+![北海道 Vol.7 ― 美瑛・富良野](/images/2022_07_11_25.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

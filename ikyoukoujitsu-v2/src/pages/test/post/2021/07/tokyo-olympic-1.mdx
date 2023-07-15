@@ -1,0 +1,28 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-07-23 19:42:53+09:00",
+  Title: "東京オリンピック 開会式",
+  share_img: "/images/2021_07_23_10.jpg",
+  slug: "tokyo-olympic-1",
+};
+
+![東京オリンピック 開会式](/images/2021_07_23_7.jpg)
+![東京オリンピック 開会式](/images/2021_07_23_8.jpg)
+![東京オリンピック 開会式](/images/2021_07_23_9.jpg)
+![東京オリンピック 開会式](/images/2021_07_23_10.jpg)
+![東京オリンピック 開会式](/images/2021_07_23_11.jpg)
+![東京オリンピック 開会式](/images/2021_07_23_12.jpg)
+![東京オリンピック 開会式](/images/2021_07_23_13.jpg)
+![東京オリンピック 開会式](/images/2021_07_23_14.jpg)
+![東京オリンピック 開会式](/images/2021_07_23_15.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

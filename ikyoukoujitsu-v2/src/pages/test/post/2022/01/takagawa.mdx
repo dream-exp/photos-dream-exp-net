@@ -1,0 +1,23 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-01-08 23:59:34+09:00",
+  Title: "高校サッカー選手権準決勝 高川学園 vs 青森山田",
+  share_img: "/images/2022_01_08_7.jpg",
+  slug: "takagawa",
+};
+
+![高校サッカー選手権準決勝 高川学園 vs 青森山田](/images/2022_01_08_4.jpg)
+![高校サッカー選手権準決勝 高川学園 vs 青森山田](/images/2022_01_08_5.jpg)
+![高校サッカー選手権準決勝 高川学園 vs 青森山田](/images/2022_01_08_6.jpg)
+![高校サッカー選手権準決勝 高川学園 vs 青森山田](/images/2022_01_08_7.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

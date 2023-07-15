@@ -1,0 +1,23 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-06-20 21:16:29+09:00",
+  Title: "イサム・ノグチ AKARI",
+  share_img: "/images/2021_06_20_2.jpg",
+  slug: "isamu-noguchi-akari",
+};
+
+![イサム・ノグチ AKARI](/images/2021_06_20_1.jpg)
+![イサム・ノグチ AKARI](/images/2021_06_20_2.jpg)
+![イサム・ノグチ AKARI](/images/2021_06_20_3.jpg)
+![イサム・ノグチ AKARI](/images/2021_06_20_4.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

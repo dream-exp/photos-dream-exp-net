@@ -1,0 +1,33 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-05-14 20:33:23+09:00",
+  Title: "日々の中で",
+  share_img: "/images/2021_05_14_4.jpg",
+  slug: "dailylife-1",
+};
+
+![日々の中で](/images/2021_05_14_1.jpg)
+![日々の中で](/images/2021_05_14_2.jpg)
+![日々の中で](/images/2021_05_14_3.jpg)
+![日々の中で](/images/2021_05_14_4.jpg)
+![日々の中で](/images/2021_05_14_5.jpg)
+![日々の中で](/images/2021_05_14_6.jpg)
+![日々の中で](/images/2021_05_14_7.jpg)
+![日々の中で](/images/2021_05_14_8.jpg)
+![日々の中で](/images/2021_05_14_9.jpg)
+![日々の中で](/images/2021_05_14_10.jpg)
+![日々の中で](/images/2021_05_14_11.jpg)
+![日々の中で](/images/2021_05_15_1.jpg)
+![日々の中で](/images/2021_05_15_2.jpg)
+![日々の中で](/images/2021_05_15_3.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,33 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-02-06 17:35:37+09:00",
+  Title: "サイクリング ― 土浦",
+  share_img: "/images/2021_02_06_6.jpg",
+  slug: "tsuchiura",
+};
+
+念願のクロスバイクをゲットしたので、つくばのお隣の土浦までサイクリングへ。
+
+往復 30km ほどでしたが、意外とすんなり行けてしまい、クロスバイクの快適さを体感するのでした。
+
+![サイクリング ― 土浦](/images/2021_02_06_1.jpg)
+![サイクリング ― 土浦](/images/2021_02_06_2.jpg)
+![サイクリング ― 土浦](/images/2021_02_06_3.jpg)
+![サイクリング ― 土浦](/images/2021_02_06_4.jpg)
+![サイクリング ― 土浦](/images/2021_02_06_5.jpg)
+![サイクリング ― 土浦](/images/2021_02_06_6.jpg)
+
+<span className="caption">
+  霞ヶ浦のそばで記念撮影。白いフレームが青に映えます。
+</span>
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

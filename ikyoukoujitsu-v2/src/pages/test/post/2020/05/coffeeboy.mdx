@@ -1,0 +1,24 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-05-05 03:17:48+09:00",
+  Title: "COFFEEBOYのコーヒーグッズ",
+  share_img: "/images/2020_05_05_1.jpg",
+  slug: "coffeeboy",
+};
+
+3 月の写真展でお世話になった COFFEEBOY。在廊期間はもちろんのこと、それ以前からよく訪れていたカフェだったが、在廊中ずっと飲んでいたコーヒーが恋しくなって、お店で使われているマグカップ、お店で手作りしているお菓子、コーヒー豆を山口から取り寄せた。
+
+![COFFEEBOYのコーヒーグッズ](/images/2020_05_05_1.jpg)
+![COFFEEBOYのコーヒーグッズ](/images/2020_05_05_2.jpg)
+![COFFEEBOYのコーヒーグッズ](/images/2020_05_05_3.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

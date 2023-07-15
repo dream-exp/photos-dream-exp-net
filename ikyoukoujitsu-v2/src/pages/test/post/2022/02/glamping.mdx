@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-02-11 01:02:32+09:00",
+  Title: "グランピング",
+  share_img: "/images/2022_02_11_5.jpg",
+  slug: "glamping",
+};
+
+![グランピング](/images/2022_02_11_1.jpg)
+![グランピング](/images/2022_02_11_2.jpg)
+![グランピング](/images/2022_02_11_3.jpg)
+![グランピング](/images/2022_02_11_4.jpg)
+![グランピング](/images/2022_02_11_5.jpg)
+![グランピング](/images/2022_02_11_6.jpg)
+![グランピング](/images/2022_02_11_7.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

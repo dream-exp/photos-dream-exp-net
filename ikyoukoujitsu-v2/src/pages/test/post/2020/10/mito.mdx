@@ -1,0 +1,29 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-10-04 16:36:15+09:00",
+  Title: "水戸",
+  share_img: "/images/2020_10_04_3.jpg",
+  slug: "mito",
+};
+
+![水戸](/images/2020_10_04_1.jpg)
+![水戸](/images/2020_10_04_2.jpg)
+![水戸](/images/2020_10_04_3.jpg)
+![水戸](/images/2020_10_04_4.jpg)
+![水戸](/images/2020_10_04_5.jpg)
+![水戸](/images/2020_10_04_6.jpg)
+![水戸](/images/2020_10_04_7.jpg)
+![水戸](/images/2020_10_04_8.jpg)
+![水戸](/images/2020_10_04_9.jpg)
+![水戸](/images/2020_10_04_10.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

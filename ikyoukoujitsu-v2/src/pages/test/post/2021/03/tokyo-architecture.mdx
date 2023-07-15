@@ -1,0 +1,33 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-03-27 23:42:25+09:00",
+  Title: "東京建築探訪",
+  share_img: "/images/2021_03_27_7.jpg",
+  slug: "tokyo-architecture",
+};
+
+![東京建築探訪](/images/2021_03_27_5.jpg)
+![東京建築探訪](/images/2021_03_27_6.jpg)
+![東京建築探訪](/images/2021_03_27_7.jpg)
+![東京建築探訪](/images/2021_03_27_9.jpg)
+![東京建築探訪](/images/2021_03_27_10.jpg)
+![東京建築探訪](/images/2021_03_27_15.jpg)
+![東京建築探訪](/images/2021_03_27_16.jpg)
+![東京建築探訪](/images/2021_03_27_17.jpg)
+![東京建築探訪](/images/2021_03_27_18.jpg)
+![東京建築探訪](/images/2021_03_27_19.jpg)
+![東京建築探訪](/images/2021_03_27_20.jpg)
+![東京建築探訪](/images/2021_03_27_21.jpg)
+![東京建築探訪](/images/2021_04_04_1.jpg)
+![東京建築探訪](/images/2021_04_04_2.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

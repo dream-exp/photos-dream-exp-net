@@ -1,0 +1,27 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-04-18 01:55:40+09:00",
+  Title: "金沢 Vol.4 | 金沢市街散歩",
+  share_img: "/images/2021_04_18_4.jpg",
+  slug: "kanazawa-4",
+};
+
+![金沢 Vol.4 | 金沢市街散歩](/images/2021_04_18_1.jpg)
+![金沢 Vol.4 | 金沢市街散歩](/images/2021_04_18_2.jpg)
+![金沢 Vol.4 | 金沢市街散歩](/images/2021_04_18_3.jpg)
+![金沢 Vol.4 | 金沢市街散歩](/images/2021_04_18_4.jpg)
+![金沢 Vol.4 | 金沢市街散歩](/images/2021_04_18_5.jpg)
+![金沢 Vol.4 | 金沢市街散歩](/images/2021_04_18_6.jpg)
+![金沢 Vol.4 | 金沢市街散歩](/images/2021_04_18_7.jpg)
+![金沢 Vol.4 | 金沢市街散歩](/images/2021_04_18_8.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

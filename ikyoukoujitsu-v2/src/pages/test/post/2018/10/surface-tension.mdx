@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2018-10-15 14:54:18+09:00",
+  Title: "表面張力",
+  share_img: "/images/IMG_5299.jpg",
+  slug: "surface-tension",
+};
+
+![表面張力](/images/IMG_5299.jpg)
+
+<span className="caption">道の駅 願成就温泉にて</span>
+
+誰かが足を拭いたのだろう。
+
+足湯の腰掛けにできた水たまりをふと反対側から見てみると、表面張力を感じる景色が広がっていて、シャッターを切らずにはいられなかった。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

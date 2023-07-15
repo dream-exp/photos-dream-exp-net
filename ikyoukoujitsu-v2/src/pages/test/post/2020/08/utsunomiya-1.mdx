@@ -1,0 +1,34 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-08-02 16:07:06+09:00",
+  Title: "宇都宮 Vol.1",
+  share_img: "/images/2020_08_02_2.jpg",
+  slug: "utsunomiya-1",
+};
+
+![宇都宮 Vol.1](/images/2020_08_02_1.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_2.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_3.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_4.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_5.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_6.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_7.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_8.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_9.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_10.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_11.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_12.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_13.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_14.jpg)
+![宇都宮 Vol.1](/images/2020_08_02_15.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

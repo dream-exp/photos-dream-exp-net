@@ -1,0 +1,28 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-01-03 21:44:39+09:00",
+  Title: "初詣 ― 太皷谷稲成神社",
+  share_img: "/images/2020_01_03_7.jpg",
+  slug: "taikodaniinari",
+};
+
+![初詣 ― 太皷谷稲成神社](/images/2020_01_03_1.jpg)
+![初詣 ― 太皷谷稲成神社](/images/2020_01_03_2.jpg)
+![初詣 ― 太皷谷稲成神社](/images/2020_01_03_3.jpg)
+![初詣 ― 太皷谷稲成神社](/images/2020_01_03_4.jpg)
+![初詣 ― 太皷谷稲成神社](/images/2020_01_03_5.jpg)
+![初詣 ― 太皷谷稲成神社](/images/2020_01_03_6.jpg)
+![初詣 ― 太皷谷稲成神社](/images/2020_01_03_8.jpg)
+![初詣 ― 太皷谷稲成神社](/images/2020_01_03_7.jpg)
+![初詣 ― 太皷谷稲成神社](/images/2020_01_03_9.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,36 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-01-01 19:10:19+09:00",
+  Title: "元日",
+  share_img: "/images/2019_01_01_7.JPG",
+  slug: "newyear",
+};
+
+![元日](/images/2019_01_01_1.JPG)
+
+![元日](/images/2019_01_01_2.JPG)
+
+![元日](/images/2019_01_01_3.JPG)
+
+![元日](/images/2019_01_01_4.JPG)
+
+![元日](/images/2019_01_01_5.JPG)
+
+![元日](/images/2019_01_01_6.JPG)
+
+![元日](/images/2019_01_01_7.JPG)
+
+![元日](/images/2019_01_01_8.JPG)
+
+![元日](/images/2019_01_01_9.JPG)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

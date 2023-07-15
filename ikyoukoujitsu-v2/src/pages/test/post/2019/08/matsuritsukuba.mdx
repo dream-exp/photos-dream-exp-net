@@ -1,0 +1,29 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-08-24 16:13:23+09:00",
+  Title: "まつりつくば",
+  share_img: "/images/2019_08_24_8.JPG",
+  slug: "matsuritsukuba",
+};
+
+![まつりつくば](/images/2019_08_24_1.JPG)
+![まつりつくば](/images/2019_08_24_2.JPG)
+![まつりつくば](/images/2019_08_24_3.JPG)
+![まつりつくば](/images/2019_08_24_4.JPG)
+![まつりつくば](/images/2019_08_24_5.JPG)
+![まつりつくば](/images/2019_08_24_6.JPG)
+![まつりつくば](/images/2019_08_24_7.JPG)
+![まつりつくば](/images/2019_08_24_8.JPG)
+![まつりつくば](/images/2019_08_24_9.JPG)
+![まつりつくば](/images/2019_08_24_10.JPG)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

@@ -1,0 +1,31 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-03-13 21:51:20+09:00",
+  Title: "東京カテドラル聖マリア大聖堂",
+  share_img: "/images/2021_03_13_1.jpg",
+  slug: "tokyo-cathedral",
+};
+
+![東京カテドラル聖マリア大聖堂](/images/2021_03_13_1.jpg)
+![東京カテドラル聖マリア大聖堂](/images/2021_03_13_2.jpg)
+![東京カテドラル聖マリア大聖堂](/images/2021_03_13_3.jpg)
+![東京カテドラル聖マリア大聖堂](/images/2021_03_13_4.jpg)
+![東京カテドラル聖マリア大聖堂](/images/2021_03_13_5.jpg)
+![東京カテドラル聖マリア大聖堂](/images/2021_03_13_6.jpg)
+![東京カテドラル聖マリア大聖堂](/images/2021_03_13_7.jpg)
+![東京カテドラル聖マリア大聖堂](/images/2021_03_13_8.jpg)
+![東京カテドラル聖マリア大聖堂](/images/2021_03_13_9.jpg)
+![東京カテドラル聖マリア大聖堂](/images/2021_03_13_10.jpg)
+
+丹下健三・都市・建築設計研究所 / 1964 年
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

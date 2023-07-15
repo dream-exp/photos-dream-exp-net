@@ -1,0 +1,22 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-05-04 10:53:08+09:00",
+  Title: "SLやまぐち号",
+  share_img: "/images/2019_05_04_12.JPG",
+  slug: "sl-yamaguchi",
+};
+
+![SLやまぐち号](/images/2019_05_04_12.JPG)
+
+![SLやまぐち号](/images/2019_05_04_13.JPG)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

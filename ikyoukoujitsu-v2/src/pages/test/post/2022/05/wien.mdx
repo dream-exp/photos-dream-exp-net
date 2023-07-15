@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-05-07 11:22:54+09:00",
+  Title: "オーストリッヒカフェ・ウィーン",
+  share_img: "/images/2022_05_07_1.jpg",
+  slug: "wien",
+};
+
+![オーストリッヒカフェ・ウィーン](/images/2022_05_07_1.jpg)
+![オーストリッヒカフェ・ウィーン](/images/2022_05_07_2.jpg)
+![オーストリッヒカフェ・ウィーン](/images/2022_05_07_3.jpg)
+![オーストリッヒカフェ・ウィーン](/images/2022_05_07_4.jpg)
+![オーストリッヒカフェ・ウィーン](/images/2022_05_07_5.jpg)
+![オーストリッヒカフェ・ウィーン](/images/2022_05_07_6.jpg)
+![オーストリッヒカフェ・ウィーン](/images/2022_05_07_7.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

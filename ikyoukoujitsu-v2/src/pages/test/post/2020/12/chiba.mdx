@@ -1,0 +1,25 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-12-13 22:15:06+09:00",
+  Title: "千葉市街探訪",
+  share_img: "/images/2020_12_13_1.jpg",
+  slug: "chiba",
+};
+
+![千葉市街探訪](/images/2020_12_13_1.jpg)
+![千葉市街探訪](/images/2020_12_13_2.jpg)
+![千葉市街探訪](/images/2020_12_13_3.jpg)
+![千葉市街探訪](/images/2020_12_13_4.jpg)
+![千葉市街探訪](/images/2020_12_13_5.jpg)
+![千葉市街探訪](/images/2020_12_13_6.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

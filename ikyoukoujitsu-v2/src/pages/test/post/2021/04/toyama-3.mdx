@@ -1,0 +1,33 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-04-18 02:09:28+09:00",
+  Title: "富山 Vol.3 | TOYAMAキラリ、富山市街",
+  share_img: "/images/2021_04_18_58.jpg",
+  slug: "toyama-3",
+};
+
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_53.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_54.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_55.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_56.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_57.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_58.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_59.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_60.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_61.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_62.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_63.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_64.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_65.jpg)
+![富山 Vol.3 | TOYAMAキラリ、富山市街](/images/2021_04_18_66.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

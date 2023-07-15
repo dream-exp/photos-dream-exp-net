@@ -1,0 +1,29 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-04-18 02:01:18+09:00",
+  Title: "金沢 Vol.6 | ひがし茶屋街",
+  share_img: "/images/2021_04_18_26.jpg",
+  slug: "kanazawa-6",
+};
+
+![金沢 Vol.6 | ひがし茶屋街](/images/2021_04_18_20.jpg)
+![金沢 Vol.6 | ひがし茶屋街](/images/2021_04_18_21.jpg)
+![金沢 Vol.6 | ひがし茶屋街](/images/2021_04_18_22.jpg)
+![金沢 Vol.6 | ひがし茶屋街](/images/2021_04_18_23.jpg)
+![金沢 Vol.6 | ひがし茶屋街](/images/2021_04_18_24.jpg)
+![金沢 Vol.6 | ひがし茶屋街](/images/2021_04_18_25.jpg)
+![金沢 Vol.6 | ひがし茶屋街](/images/2021_04_18_26.jpg)
+![金沢 Vol.6 | ひがし茶屋街](/images/2021_04_18_27.jpg)
+![金沢 Vol.6 | ひがし茶屋街](/images/2021_04_18_28.jpg)
+![金沢 Vol.6 | ひがし茶屋街](/images/2021_04_18_29.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

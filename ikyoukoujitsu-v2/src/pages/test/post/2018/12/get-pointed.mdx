@@ -1,0 +1,31 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2018-12-07 09:58:09+09:00",
+  Title: "尖る",
+  share_img: "/images/D27D230E-7DB0-44B4-9B21-B3BA96C121D3.JPG",
+  slug: "get-pointed",
+};
+
+![尖る](/images/D27D230E-7DB0-44B4-9B21-B3BA96C121D3.JPG)
+
+![尖る](/images/D79994F7-A441-45F6-9B9F-4BB07EFDF77D.JPG)
+
+![尖る](/images/E16B1A92-625B-4E39-A34E-C0E3A8A5C102.JPG)
+
+昨日は、人生初の学外発表だった。上の写真は懇親会にて。車で会場まで行ったので、アルコールが飲めなかったのが残念だ。
+
+懇親会で、クリエイターとして生き残るにはもっと尖っていかないとダメだ、という話で盛り上がった。僕はメディアアート方面でクリエイターを目指しているし、こうして専用のサイトを作るぐらい写真も好きだけど、個性がないというのはずっと思っていたことだったので、ハッとした気持ちになった。
+
+というわけで、今日から個性を出しまくって尖っていこうと思う。
+1 年後ぐらいには、スイカバーぐらい尖ってるかな。。。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

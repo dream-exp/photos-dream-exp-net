@@ -1,0 +1,45 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2023-01-29 02:49:29+09:00",
+  Title: "日々の中で",
+  share_img: "/images/2023_01_29_4.jpg",
+  slug: "dailylife-3",
+};
+
+またまた新宿へ。
+
+ここ数日 35mm で写真を撮っていましたが、やっぱり 50mm が恋しくなり、M マウントレンズを買い足すことに。
+
+![日々の中で](/images/2023_01_29_1.jpg)
+![日々の中で](/images/2023_01_29_2.jpg)
+
+Voigtlander HELIAR classic 50mm F1.5 と MINOLTA M-ROKKOR 90mm F4 を買いました。
+
+後は COLOR-SKOPAR 21mm F4P を買う予定です。これで X マウントで使ってたレンズ構成をほぼ再現できそうです。
+
+![日々の中で](/images/2023_01_29_3.jpg)
+![日々の中で](/images/2023_01_29_4.jpg)
+![日々の中で](/images/2023_01_29_5.jpg)
+![日々の中で](/images/2023_01_29_6.jpg)
+![日々の中で](/images/2023_01_29_7.jpg)
+![日々の中で](/images/2023_01_29_8.jpg)
+![日々の中で](/images/2023_01_29_9.jpg)
+
+夜から海ほたるへドライブ。
+
+次はお昼に訪れたいです。
+
+Leica M10<br />
+Voigtlander NOKTON classic 35mm F1.4 Ⅱ SC<br />
+Voigtlander HELIAR classic 50mm F1.5
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

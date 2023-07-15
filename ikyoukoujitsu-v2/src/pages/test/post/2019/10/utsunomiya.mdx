@@ -1,0 +1,23 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-10-27 17:07:45+09:00",
+  Title: "宇都宮",
+  share_img: "/images/2019_10_27_14.JPG",
+  slug: "utsunomiya",
+};
+
+![宇都宮](/images/2019_10_27_11.JPG)
+![宇都宮](/images/2019_10_27_12.JPG)
+![宇都宮](/images/2019_10_27_13.JPG)
+![宇都宮](/images/2019_10_27_14.JPG)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

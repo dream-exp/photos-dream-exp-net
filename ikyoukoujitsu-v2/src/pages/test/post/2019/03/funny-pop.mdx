@@ -1,0 +1,28 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-03-27 22:54:57+09:00",
+  Title: "おもしろポップ",
+  share_img: "/images/2019_03_27_7.jpg",
+  slug: "funny-pop",
+};
+
+柳井の白壁の町並みを初めて歩いてみました。
+
+![おもしろポップ](/images/2019_03_27_7.jpg)
+
+![おもしろポップ](/images/2019_03_27_8.jpg)
+
+![おもしろポップ](/images/2019_03_27_9.jpg)
+
+町並みはもちろんのこと、個性的なお店が多くて面白い場所でした。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

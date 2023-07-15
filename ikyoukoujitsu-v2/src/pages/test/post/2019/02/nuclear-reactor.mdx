@@ -1,0 +1,20 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-02-10 20:26:23+09:00",
+  Title: "Nuclear Reactor",
+  share_img: "/images/2019_02_06_1.jpg",
+  slug: "nuclear-reactor",
+};
+
+![Nuclear Reactor](/images/2019_02_06_1.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

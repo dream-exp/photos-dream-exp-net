@@ -1,0 +1,27 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-05-02 10:49:24+09:00",
+  Title: "メルバニ",
+  share_img: "/images/2019_05_02_13.JPG",
+  slug: "merubani",
+};
+
+下松市にあるカレー屋さん「メルバニ」。
+本格的なカレーが食べられます。
+
+![メルバニ](/images/2019_05_02_11.JPG)
+
+![メルバニ](/images/2019_05_02_12.JPG)
+
+![メルバニ](/images/2019_05_02_13.JPG)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

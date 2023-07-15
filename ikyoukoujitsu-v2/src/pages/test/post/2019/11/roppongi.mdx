@@ -1,0 +1,25 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-11-23 14:12:01+09:00",
+  Title: "国立新美術館 / 東京タワー",
+  share_img: "/images/2019_11_23_2.jpg",
+  slug: "roppongi",
+};
+
+![国立新美術館 / 東京タワー](/images/2019_11_23_1.jpg)
+![国立新美術館 / 東京タワー](/images/2019_11_23_2.jpg)
+![国立新美術館 / 東京タワー](/images/2019_11_23_3.jpg)
+![国立新美術館 / 東京タワー](/images/2019_11_23_4.jpg)
+![国立新美術館 / 東京タワー](/images/2019_11_23_5.jpg)
+![国立新美術館 / 東京タワー](/images/2019_11_23_6.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

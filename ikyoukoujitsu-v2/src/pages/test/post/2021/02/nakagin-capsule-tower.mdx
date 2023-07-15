@@ -1,0 +1,25 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2021-02-13 18:00:34+09:00",
+  Title: "中銀カプセルタワービル",
+  share_img: "/images/2021_02_13_17.jpg",
+  slug: "nakagin-capsule-tower",
+};
+
+![中銀カプセルタワービル](/images/2021_02_13_16.jpg)
+![中銀カプセルタワービル](/images/2021_02_13_17.jpg)
+![中銀カプセルタワービル](/images/2021_02_13_19.jpg)
+![中銀カプセルタワービル](/images/2021_02_13_20.jpg)
+![中銀カプセルタワービル](/images/2021_02_13_22.jpg)
+![中銀カプセルタワービル](/images/2021_02_13_23.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

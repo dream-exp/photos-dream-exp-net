@@ -1,0 +1,26 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-04-02 09:31:21+09:00",
+  Title: "さくらを見に",
+  share_img: "/images/2022_04_02_1.jpg",
+  slug: "sakura",
+};
+
+![さくらを見に](/images/2022_04_02_1.jpg)
+![さくらを見に](/images/2022_04_02_2.jpg)
+![さくらを見に](/images/2022_04_02_3.jpg)
+![さくらを見に](/images/2022_04_02_4.jpg)
+![さくらを見に](/images/2022_04_02_5.jpg)
+![さくらを見に](/images/2022_04_02_6.jpg)
+![さくらを見に](/images/2022_04_02_7.jpg)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

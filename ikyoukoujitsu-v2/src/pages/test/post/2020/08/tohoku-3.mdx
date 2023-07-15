@@ -1,0 +1,37 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-08-30 22:33:53+09:00",
+  Title: "東北 Vol.3 ― 平泉",
+  share_img: "/images/2020_08_30_9.jpg",
+  slug: "tohoku-3",
+};
+
+横手で一泊し、翌朝は大曲から秋田新幹線で盛岡まで移動。
+
+![東北 Vol.3 ― 平泉](/images/2020_08_30_1.jpg)
+![東北 Vol.3 ― 平泉](/images/2020_08_30_2.jpg)
+![東北 Vol.3 ― 平泉](/images/2020_08_30_3.jpg)
+![東北 Vol.3 ― 平泉](/images/2020_08_30_4.jpg)
+
+盛岡からは東北本線に乗って平泉へ。平泉ではレンタサイクルで周辺を散策しました。
+![東北 Vol.3 ― 平泉](/images/2020_08_30_5.jpg)
+
+<span className="caption">最上川</span>
+![東北 Vol.3 ― 平泉](/images/2020_08_30_6.jpg) ![東北 Vol.3 ― 平泉](/images/2020_08_30_7.jpg)
+![東北 Vol.3 ― 平泉](/images/2020_08_30_8.jpg) ![東北 Vol.3 ― 平泉](/images/2020_08_30_9.jpg)
+![東北 Vol.3 ― 平泉](/images/2020_08_30_10.jpg) ![東北 Vol.3 ― 平泉](/images/2020_08_30_11.jpg)
+![東北 Vol.3 ― 平泉](/images/2020_08_30_12.jpg) ![東北 Vol.3 ― 平泉](/images/2020_08_30_13.jpg)
+
+このあとはお昼すぎからひたすら電車に乗り続けて帰路に着きました。<br />
+18 きっぷで移動したこともあり、東北 2 日目はほぼ移動で終わってしまいました。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

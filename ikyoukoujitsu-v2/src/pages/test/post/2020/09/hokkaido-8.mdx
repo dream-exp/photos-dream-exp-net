@@ -1,0 +1,39 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2020-09-23 19:27:33+09:00",
+  Title: "北海道 Vol.8",
+  share_img: "/images/2020_09_23_16.jpg",
+  slug: "hokkaido-8",
+};
+
+美瑛観光の続き。
+
+美瑛を周りながら、旭岳山頂のライブカメラを見て天候回復を待っていたのですが、ついにお昼ごろから山頂の姿が部分的に見えるようになり、急遽旭岳ロープウェイへ向かいました。
+
+![北海道 Vol.8](/images/2020_09_23_12.jpg)
+
+<span className="caption">
+  森林限界を通過するあたりになると、これまで森だった景色から徐々に木々が消えていく不思議な景色を見ることができます。
+</span>
+![北海道 Vol.8](/images/2020_09_23_13.jpg)
+<span className="caption">
+  山頂へ近づくと、もはやあたり一面が雲に覆われているような状況に。
+</span>
+![北海道 Vol.8](/images/2020_09_23_14.jpg) ![北海道 Vol.8](/images/2020_09_23_15.jpg)
+![北海道 Vol.8](/images/2020_09_23_16.jpg) ![北海道 Vol.8](/images/2020_09_23_18.jpg)
+![北海道 Vol.8](/images/2020_09_23_19.jpg)
+
+山頂のトレッキングコースを歩いていると、徐々に天候が回復。雄大な旭岳を拝むことができました。
+
+続く。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

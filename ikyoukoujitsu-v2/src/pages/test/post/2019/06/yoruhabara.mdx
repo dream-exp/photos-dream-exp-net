@@ -1,0 +1,28 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2019-06-07 23:43:09+09:00",
+  Title: "夜葉原",
+  share_img: "/images/2019_06_07_2.JPG",
+  slug: "yoruhabara",
+};
+
+金曜日の仕事帰りに HUB でビールを飲むのがルーチン化してきているこの頃。<br />
+今日は写真を撮りたくなって、酔い覚ましに夜の秋葉原をぶらぶらして帰った。
+
+![夜葉原](/images/2019_06_07_1.JPG)
+![夜葉原](/images/2019_06_07_2.JPG)
+![夜葉原](/images/2019_06_07_3.JPG)
+![夜葉原](/images/2019_06_07_4.JPG)
+![夜葉原](/images/2019_06_07_5.JPG)
+![夜葉原](/images/2019_06_07_6.JPG)
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);

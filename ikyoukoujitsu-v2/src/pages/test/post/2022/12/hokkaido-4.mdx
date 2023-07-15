@@ -1,0 +1,43 @@
+import Head from "next/head";
+import PostLayout from "@/components/common/PostLayout";
+
+export const meta = {
+  date: "2022-12-18 23:57:40+09:00",
+  Title: "北海道 Vol.4",
+  share_img: "/images/2022_12_18_24.jpg",
+  slug: "hokkaido-4",
+};
+
+2 日目午後は電車で小樽へ。
+
+![北海道 Vol.4](/images/2022_12_18_19.jpg)
+![北海道 Vol.4](/images/2022_12_18_20.jpg)
+![北海道 Vol.4](/images/2022_12_18_21.jpg)
+![北海道 Vol.4](/images/2022_12_18_22.jpg)
+![北海道 Vol.4](/images/2022_12_18_23.jpg)
+![北海道 Vol.4](/images/2022_12_18_24.jpg)
+![北海道 Vol.4](/images/2022_12_18_25.jpg)
+![北海道 Vol.4](/images/2022_12_18_26.jpg)
+![北海道 Vol.4](/images/2022_12_18_27.jpg)
+![北海道 Vol.4](/images/2022_12_18_28.jpg)
+![北海道 Vol.4](/images/2022_12_18_29.jpg)
+![北海道 Vol.4](/images/2022_12_18_30.jpg)
+![北海道 Vol.4](/images/2022_12_18_31.jpg)
+![北海道 Vol.4](/images/2022_12_18_32.jpg)
+![北海道 Vol.4](/images/2022_12_18_33.jpg)
+![北海道 Vol.4](/images/2022_12_18_34.jpg)
+![北海道 Vol.4](/images/2022_12_18_35.jpg)
+![北海道 Vol.4](/images/2022_12_18_36.jpg)
+
+雪の小樽は何気に初めて。
+
+海外の方も多くいらっしゃっていました。
+
+export default ({ children }) => (
+  <>
+    <Head>
+      <title>{meta.Title} | 異郷好実</title>
+    </Head>
+    <PostLayout meta={meta}>{children}</PostLayout>
+  </>
+);
