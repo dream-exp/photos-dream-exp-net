@@ -81,12 +81,6 @@ body div div article.individual img {
     object-fit: contain;
   }
 }
-body div div article.individual img:hover {
-  opacity: 0.75;
-}
-body div div article.individual a {
-  border: solid 2px red;
-}
 body div div article.individual p.caption {
   font-size: 13px;
   color: #707070;

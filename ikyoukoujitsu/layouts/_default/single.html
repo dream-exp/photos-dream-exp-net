@@ -1,64 +1,94 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126650763-2"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-126650763-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-	  gtag('config', 'UA-126650763-2');
-	</script>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/article.css">
-	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:200" rel="stylesheet">
-	<link rel="shortcut icon" href="{{ .Site.BaseURL }}/images/favicon.ico" >
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@dream_exp" />
-	<meta property="og:type" content="article" />
-	<meta property="og:url" content="https://photos.dream-exp.net{{ .Permalink }}" />
-	<meta property="og:title" content="異郷好実 | {{ .Title }}" />
-	<meta property="og:description" content="フォトエッセイ・ブログ" />
-	<meta property="og:image" content="https://photos.dream-exp.net{{ .Params.share_img }}" />
-	<title>異郷好実 | {{ .Title }}</title>
-</head>
-<body>
-	<div>
-		<header>
-			<a href="https://photos.dream-exp.net">
-				<h1>異郷好実</h1>
-			</a>
-		</header>
-		<div>
-			<article class="individual">
-				<p class="time">{{ .Date.Format "2006年01月02日" }}</p>
-				<h2>{{ .Title }}</h2>
-				{{ .Content }}
-			</article>
-			<footer>
-				{{ if .PrevInSection }}
-					<a class="button__link" href="{{.PrevInSection.RelPermalink}}"><button class="prev">古い記事へ</button></a>
-				{{ end }}
-				<!-- <a hhref="#" onclick="javascript:window.history.back(-1);return false;"><button class="back">一覧へ戻る</button></a> -->
-				{{ if .NextInSection }}
-					<a class="button__link" href="{{.NextInSection.RelPermalink}}"><button class="next">新しい記事へ</button></a>
-				{{ end }}
-			</footer>
-		</div>
-	</div>
-</body>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" crossorigin="anonymous"></script>
-<script>
-	$(function() {
-		$("img").lazyload(
-			{
-				threshold: 500, // 10pxの距離まで近づいたら表示する
-				effect: "fadeIn", // フェードインアニメーションで表示
-	    	}
-		);
-	});
-</script>
+      gtag("config", "UA-126650763-2");
+    </script>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/article.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:200"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}/images/favicon.ico" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@dream_exp" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://photos.dream-exp.net{{ .Permalink }}"
+    />
+    <meta property="og:title" content="異郷好実 | {{ .Title }}" />
+    <meta property="og:description" content="フォトエッセイ・ブログ" />
+    <meta
+      property="og:image"
+      content="https://photos.dream-exp.net{{ .Params.share_img }}"
+    />
+    <meta
+      name="description"
+      content="旅行写真やストリートフォトがメインのフォトブログです。『異郷好実』は、スクリーンに没入することが多いこの時代に、異なる様々な故郷＝異郷を見ることで、画面では感じられない実世界をもっと好きになる、というコンセプトに基づいて名付けられました。"
+    />
+    <title>異郷好実 | {{ .Title }}</title>
+  </head>
+  <body>
+    <div>
+      <header>
+        <a href="https://photos.dream-exp.net">
+          <h1>異郷好実</h1>
+        </a>
+      </header>
+      <div>
+        <article class="individual">
+          <p class="time">{{ .Date.Format "2006年01月02日" }}</p>
+          <h2>{{ .Title }}</h2>
+          {{ .Content }}
+        </article>
+        <footer>
+          {{ if .PrevInSection }}
+          <a class="button__link" href="{{.PrevInSection.RelPermalink}}"
+            ><button class="prev">古い記事へ</button></a
+          >
+          {{ end }}
+          <!-- <a hhref="#" onclick="javascript:window.history.back(-1);return false;"><button class="back">一覧へ戻る</button></a> -->
+          {{ if .NextInSection }}
+          <a class="button__link" href="{{.NextInSection.RelPermalink}}"
+            ><button class="next">新しい記事へ</button></a
+          >
+          {{ end }}
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    $(function () {
+      $("img").lazyload({
+        threshold: 500, // 10pxの距離まで近づいたら表示する
+        effect: "fadeIn", // フェードインアニメーションで表示
+      });
+    });
+  </script>
 </html>
