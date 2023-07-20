@@ -68,6 +68,7 @@ body div div article.individual h3 {
 body div div article.individual img {
   display: block;
   width: 100%;
+  height: auto;
   margin: 40px auto;
   transition: all 0.2s;
   -webkit-transition: all 0.2s ease;
