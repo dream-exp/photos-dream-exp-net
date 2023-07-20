@@ -1,3 +1,8 @@
 <a href="{{ index .Params 0 }}" target="_blank">
-  <img src="{{ index .Params 0}}" loading="lazy" width="1000" height="1000" />
+  <img
+    src="{{ index .Params 0}}"
+    loading="lazy"
+    width="{{ index .Params 1 }}"
+    height="{{ index .Params 2 }}"
+  />
 </a>
