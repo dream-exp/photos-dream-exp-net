@@ -57,11 +57,11 @@
           <p class="time">2019年10月05日</p>
           <h2>TX</h2>
           <p><a href="/images/2019_10_05_1.JPG" target="_blank">
-  <img data-original="/images/2019_10_05_1.JPG" />
+  <img src="/images/2019_10_05_1.JPG" loading="lazy" width="1000" height="1000" />
 </a>
 
 <a href="/images/2019_10_05_2.JPG" target="_blank">
-  <img data-original="/images/2019_10_05_2.JPG" />
+  <img src="/images/2019_10_05_2.JPG" loading="lazy" width="1000" height="1000" />
 </a>
 </p>
 
@@ -94,7 +94,7 @@
   <script>
     $(function () {
       $("img").lazyload({
-        threshold: 500, 
+        threshold: 200, 
         effect: "fadeIn", 
       });
     });

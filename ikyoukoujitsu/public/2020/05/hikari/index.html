@@ -57,7 +57,7 @@
           <p class="time">2020年05月11日</p>
           <h2>ひかり</h2>
           <a href="/images/2020_05_11_1.jpg" target="_blank">
-  <img data-original="/images/2020_05_11_1.jpg" />
+  <img src="/images/2020_05_11_1.jpg" loading="lazy" width="1000" height="1000" />
 </a>
 
 
@@ -90,7 +90,7 @@
   <script>
     $(function () {
       $("img").lazyload({
-        threshold: 500, 
+        threshold: 200, 
         effect: "fadeIn", 
       });
     });
