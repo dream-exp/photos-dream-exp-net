@@ -1,11 +1,16 @@
-
-	<article class="list">
-		{{ if isset .Params "share_img" }}
-		<a href="{{ .Permalink }}">
-		    <img data-original="{{ .Params.share_img }}" class="eyecatch">
-		</a>
-		{{ end }}
-		<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-		<p class="time"><a href="{{ .Permalink }}">{{ .Date.Format "2006年01月02日" }}</a></p>
-	</article>
-</a>
+<article class="list">
+  {{ if isset .Params "share_img" }}
+  <a href="{{ .Permalink }}">
+    <img
+      data-original="{{ .Params.share_img }}"
+      class="eyecatch"
+      loading="lazy"
+      alt="{{ .Title }}"
+    />
+  </a>
+  {{ end }}
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <p class="time">
+    <a href="{{ .Permalink }}">{{ .Date.Format "2006年01月02日" }}</a>
+  </p>
+</article>
