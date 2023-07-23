@@ -26,13 +26,14 @@ body div {
 }
 body div header {
   width: 160px;
-  margin: 80px auto;
+  margin: 40px auto 80px;
 }
 body div header h1 {
+  display: block;
   letter-spacing: 0.6em;
   text-indent: 0.6em;
   font-size: 22px;
-  padding-bottom: 20px;
+  padding: 20px 0;
   border-bottom: solid 1px #d8d8d8;
   text-align: center;
   color: #707070;
@@ -67,6 +68,7 @@ body div div article.individual h3 {
 }
 body div div article.individual img {
   display: block;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdjePfu3X8ACWIDyvrS0aMAAAAASUVORK5CYII=);
   max-width: 1020px;
   width: 100%;
   height: auto;
